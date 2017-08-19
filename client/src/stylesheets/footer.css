@@ -1,0 +1,6 @@
+.footer{
+    border  : 3px solid purple;
+    position: fixed;
+    bottom  : 0;
+    width   : 100%;
+}
