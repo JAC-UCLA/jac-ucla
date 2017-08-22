@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NavBar from './comp/navbar.jsx'
 import Main from './comp/main.jsx';
+import About from './comp/about.jsx';
 import Join from './comp/join.jsx';
 import Footer from './comp/footer.jsx';
 
@@ -12,6 +13,7 @@ class App extends Component {
       <div className="App">
         <NavBar />
         <Main />
+        <About/>
         <Join />
         <Footer />
       </div>

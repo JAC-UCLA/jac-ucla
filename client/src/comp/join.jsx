@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import '../stylesheets/join.css'
+import '../../public/stylesheets/join.css'
 
 export default class JoinBanner extends Component {
     render(){
