@@ -1,9 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-import background from '../assets/about.svg'
-
-export default class About extends Component {
-    render(){
+const About = () => {
         return (
             <div className="about">
                 <div className="title">
@@ -22,5 +19,5 @@ export default class About extends Component {
                 </div>
             </div>
         )
-    }
 }
+export default About;

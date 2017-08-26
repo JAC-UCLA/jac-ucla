@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class JoinBanner extends Component {
-    render(){
+const JoinBanner = () => {
         return (
             <div className="join">
                 {/* insert join banner svg (?) */}
@@ -24,5 +23,5 @@ export default class JoinBanner extends Component {
                 </div>
             </div>
         );
-    }
 }
+export default JoinBanner;

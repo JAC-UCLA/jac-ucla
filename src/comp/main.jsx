@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import stamp from '../assets/stamp.svg'
 
-export default class MainBanner extends Component {
-    render(){
+const MainBanner = () => {
         return (
             <div className="main">
                 <img alt='' src={stamp}/>
             </div>
         );
-    }
 }
+export default MainBanner;
