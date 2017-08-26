@@ -10,9 +10,15 @@ export default class About extends Component {
                     About Us
                 </div>
                 <div className="body">
-                Hi, we’re UCLA's one and only Japanese Animation Club!
-                We have weekly club meetings (currently held in Humanities 169 Thursdays 7-9pm.
-                Join our Sawtelle dinners, Con trips, and other adventures! 
+                 <p>
+                Hi and welcome to UCLA’s Japanese Animation club webpage!
+                </p>
+                <p>
+                We’re a club dedicated to facilitating both on and off-campus gatherings
+                for the appreciation of Japanese anime and culture!
+                We welcome all anime fans to join us at our club-hosted events and local conventions,
+                to meet with others who share the same passion for art and entertainment. 
+                </p>
                 </div>
             </div>
         )

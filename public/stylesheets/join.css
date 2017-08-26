@@ -1,3 +1,63 @@
 .join{
-    border: solid 3px blue;
+    margin-top: 3%;
+}
+
+.container{
+    background: #FDFEF2;
+    border: 1px solid #669986;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5% 0 1%;
+}
+
+.link{
+    /* Rectangle: */
+    height: 9em;
+    width: 27%;
+    text-transform: uppercase;
+    padding: 3% 3%;
+}
+
+.facebook{
+    /* Background: */
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+    /* for the latest updat: */
+    font-family: Raleway;
+    font-size: 24px;
+    color: #B1BE4E;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.facebook h1{
+    /* FOLLOW OUR: */
+    font-family: Raleway;
+    font-size: 24px;
+    color: #B1BE4E;
+    letter-spacing: 3px;
+    line-height: 36px;
+}
+
+.mail,
+.discord {
+    /* Background: */
+    background: #B1BE4E;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+    /* FOR WEEKLY UPDOOTS: */
+    font-family: Raleway;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+    line-height: 36px;
+}
+
+.mail h1,
+.discord h1{
+    /*Join*/
+    font-family: Raleway;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+    line-height: 36px;
 }
