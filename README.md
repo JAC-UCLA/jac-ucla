@@ -16,6 +16,4 @@ The Navbar, About Us, Join Us, and Footer sections are the most complete in the 
 
 If you want to start working on a particular component, create a new branch named after the component.
 
-All assets should be inside /client/public
-
 If an asset you need is missing, PM me.

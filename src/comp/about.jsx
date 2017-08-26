@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
-import '../../public/stylesheets/about.css'
-import background from '../../public/svg/about.svg'
+import background from '../assets/about.svg'
 
 export default class About extends Component {
     render(){

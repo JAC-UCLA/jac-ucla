@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 import NavBar from './comp/navbar.jsx'
 import Main from './comp/main.jsx';
 import About from './comp/about.jsx';
 import Join from './comp/join.jsx';
 import Footer from './comp/footer.jsx';
 
-import './App.css';
-
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <div className="App">
@@ -21,4 +21,7 @@ class App extends Component {
   }
 }
 
-export default App;
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);
