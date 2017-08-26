@@ -1,6 +1,20 @@
 .footer{
-    border  : 3px solid purple;
-    position: fixed;
-    bottom  : 0;
-    width   : 100%;
+    margin-top: 1%;
+    background: #AA507A;
+    color: #FDFEF2;
+    letter-spacing: 3.5px;
+}
+
+.footer h1{
+    /* Contact Us: */
+    font-family: AdventPro-Light;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #FDFEF2;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+}
+
+.contacts{
+    display: flex;
 }

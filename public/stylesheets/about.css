@@ -1,42 +1,40 @@
 .about{
     /* Mask: */
     background: #FFFFFC;
-    padding: 5% 0 15% 0;
-    margin-top: 2%;
-    background-image: url(../assets/svg/about.svg)
-}
-
-.body{
-    /* Hi, we’re UCLA's one: */
-    text-align: left;
-    font-family: AdventPro-Medium;
-    font-size: 24px;
-    color: #AA507A;
-    letter-spacing: 2.2px;
-    line-height: 50px;
-    padding: 5% 5% 5% 5%;
-    margin: 3% 5% 10% 5%;
-}
-
-.title{
-    /* ABOUT US: */
-    font-family: Raleway-SemiBold;
-    font-size: 36px;
-    color: #AA507A;
-    letter-spacing: 2px;
-    line-height: 26px;
-    padding: 5% 5% 5% 5%;
-    margin: 0% 5% 0% 5%;
-    text-transform: uppercase;
+    margin-top: 1%;
+    background-image: url(../../src/assets/about.svg);
+    padding: 3% 0;
 }
 
 .title,
 .body{
     background: #FDFEF2;
     border: 1px solid #CACB69;
-    z-index: 0;
 }
 
-svg{
-    z-index: -1;
+.title{
+    /* ABOUT US: */
+    font-family: Raleway-SemiBold;
+    font-size: 26px;
+    color: #AA507A;
+    letter-spacing: 2px;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin: auto;
+    padding: 3%;
+    width: 50%;
+}
+
+.body{
+    /* Hi, we’re UCLA's one: */
+    font-family: Raleway;
+    font-size: 20px;
+    color: #AA507A;
+    letter-spacing: 1px;
+    line-height: 50px;
+    padding: 5% 10%;
+    margin: auto;
+    margin-top: 3%;
+    text-align: justify;
+    width: 36%;
 }
