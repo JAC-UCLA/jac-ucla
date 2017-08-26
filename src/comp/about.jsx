@@ -1,23 +1,24 @@
 import React from 'react';
 
-const About = () => {
-        return (
-            <div className="about">
-                <div className="title">
-                    About Us
-                </div>
-                <div className="body">
-                 <p>
-                Hi and welcome to UCLA’s Japanese Animation club webpage!
-                </p>
-                <p>
-                We’re a club dedicated to facilitating both on and off-campus gatherings
-                for the appreciation of Japanese anime and culture!
-                We welcome all anime fans to join us at our club-hosted events and local conventions,
-                to meet with others who share the same passion for art and entertainment. 
-                </p>
-                </div>
+const About = ({content}) => {
+    // Use %r%, %t%, and %d% in the about array in content to display the meeting
+    // info in the about body.
+    var body = content.about.map((text) => 
+        <p>{
+            text.replace("%r%", content.meetingroom)
+                .replace("%t%", content.meetingtime)
+                .replace("%d%", content.meetingday)
+        }</p>
+    );
+    return (
+        <div className="about mainelement">
+            <div className="about-title">
+                About Us
             </div>
-        )
+            <div className="about-body">
+                {body}
+            </div>
+        </div>
+    )
 }
 export default About;
