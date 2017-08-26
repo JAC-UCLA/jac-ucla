@@ -3,38 +3,40 @@
     background: #FFFFFC;
     margin-top: 1%;
     background-image: url(../../src/assets/about.svg);
-    padding: 3% 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
-.title,
-.body{
+.about-title,
+.about-body{
     background: #FDFEF2;
-    border: 1px solid #CACB69;
+    border: 2px solid #CACB69;
 }
 
-.title{
+.about-title{
     /* ABOUT US: */
-    font-family: Raleway-SemiBold;
+    font-family: Raleway; /*-SemiBold;*/
+    font-weight: bold;
     font-size: 26px;
     color: #AA507A;
     letter-spacing: 2px;
     line-height: 26px;
     text-transform: uppercase;
-    margin: auto;
-    padding: 3%;
-    width: 50%;
+    margin: 0% 8% 4% 8%;
+    padding: 1% 2% 1% 2%; /* top right bottom left */
 }
 
-.body{
+.about-body{
     /* Hi, we’re UCLA's one: */
     font-family: Raleway;
     font-size: 20px;
     color: #AA507A;
     letter-spacing: 1px;
     line-height: 50px;
-    padding: 5% 10%;
-    margin: auto;
+
     margin-top: 3%;
     text-align: justify;
-    width: 36%;
+
+    margin: 0% 8% 0% 8%;
+    padding: 1% 2% 1% 2%; /* top right bottom left */
 }

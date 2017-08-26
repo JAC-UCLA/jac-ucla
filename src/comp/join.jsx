@@ -2,9 +2,9 @@ import React from 'react';
 
 const JoinBanner = () => {
         return (
-            <div className="join">
+            <div className="join mainelement">
                 {/* insert join banner svg (?) */}
-                <div className="container">
+                <div className="join-container">
                 <div className="discord link">
                     <h1>can't wait to hang out?</h1>
                     {/* insert svg */}
