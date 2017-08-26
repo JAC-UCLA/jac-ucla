@@ -1,9 +1,9 @@
 .about{
     /* Mask: */
-background: #FFFFFC;
-padding: 5% 0 15% 0;
-margin-top: 2%;
-background-image: url(../../public/svg/about.svg)
+    background: #FFFFFC;
+    padding: 5% 0 15% 0;
+    margin-top: 2%;
+    background-image: url(../assets/svg/about.svg)
 }
 
 .body{
