@@ -1,5 +1,43 @@
 .main {
     background: #FFFFFC;
+    font-family: Advent Pro;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+
+.stamp-box{
+    margin-left: 5%;
+    border: 5px solid;
+    border-radius: 10px;
+    width: 18%; /* use this to set size of box */
+    color: #780A0A;
+
+    /* black magic fuckery makes this box always a square */
+    position: relative;
+    overflow: hidden;
+}
+.stamp-box:before{
+    /* Needed to make box a square. */
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+.stamp-content{
+    letter-spacing: 3px;
+    font-size: 1.4vw; /* Text will always scale to fill box */
+    text-align: left;
+    padding-left: 1vw;
+    line-height: 80%;
+    
+    /* black magic fuckery */
+    position:  absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.stamp-content h3 {
+    font-size: 1.2vw;
 }
 
 .meetinginfo {
@@ -9,5 +47,8 @@
     font-size: 26px;
     color: #AA507A;
     letter-spacing: 2.5px;
-    line-height: 43px;
+    line-height: 20px;
+    text-align: left;
+    font-size: 1.2vw;
+    margin-left: 5%;
 }
