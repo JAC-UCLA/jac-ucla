@@ -4,8 +4,7 @@ body {
   padding-top: 56px; /* This is so the navbar doesn't cover the main content. */
   font-family: Advent Pro;
 
-  margin-right: 0;
-  margin-left: 0;
+  margin: 0 0;
 }
 
 /* Class for each subsection of the site. */
