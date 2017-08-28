@@ -1,7 +1,7 @@
 .about{
     /* Mask: */
     background: #FFFFFC;
-    margin-top: 1%;
+    margin-top: 2%;
     background-image: url(../../src/assets/about.svg);
     padding-top: 3%;
     padding-bottom: 3%;
@@ -32,11 +32,11 @@
     font-size: 20px;
     color: #AA507A;
     letter-spacing: 1px;
-    line-height: 50px;
+    line-height: 30px;
 
     margin-top: 3%;
     text-align: justify;
 
     margin: 0% 8% 0% 8%;
-    padding: 1% 2% 1% 2%; /* top right bottom left */
+    padding: 2% 8% 2% 8%; /* top right bottom left */
 }
