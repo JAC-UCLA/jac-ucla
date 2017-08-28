@@ -10,11 +10,18 @@
     background-color: #B1BE4E;
     font-family: Advent Pro;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.1vw;
     white-space: nowrap;
     color: #FFFFF4;
 
     box-shadow: 0px 0px 8px 2px #708090;
+}
+.navbar-logo {
+    padding-top: 0.7%;
+    padding-left: 1%;
+    float: left;
+    opacity: 0.8;
+    max-height: 2vw;
 }
 ul.navbar {
     width: 100%;

@@ -2,13 +2,9 @@ import React from 'react';
 
 const Footer = () => {
         return (
-            <div className="footer">
-                <h1> Contact Us </h1>
-                <div className="contacts">
-                    <div>1</div>
-                    <div>2</div>
-                    <div>3</div>
-                </div>
+            <div className="footer-wrapper">
+                <img className="footer-img" alt='' src={require('../assets/design18-min.png')}></img>
+                <p>© 2018 Japanese Animation Club at UCLA</p>
             </div>
         )
 }

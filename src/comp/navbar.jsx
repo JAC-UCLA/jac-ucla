@@ -3,6 +3,7 @@ import React from 'react';
 const Navbar = () => {
         return (
             <div className="navbar">
+            <img className="navbar-logo" src={require('../assets/jaclogo-min.png')} alt=''></img>
                 <ul>
                     <li><a href="#id_about">ABOUT</a></li>
                     <li><a href="#id_join">JOIN US</a></li>
