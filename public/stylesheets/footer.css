@@ -1,20 +1,23 @@
-.footer{
+.footer-wrapper {
+    background-color: #AA507A;
+    color: #FDFEF2;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Raleway;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px -1px 0px;
+    
     margin-top: 1%;
-    background: #AA507A;
-    color: #FDFEF2;
-    letter-spacing: 3.5px;
+    padding-top: 1%;
+    bottom: 0;
+    width: 100%;
 }
-
-.footer h1{
-    /* Contact Us: */
-    font-family: AdventPro-Light;
-    font-weight: lighter;
-    font-size: 36px;
-    color: #FDFEF2;
-    letter-spacing: 3.5px;
-    text-transform: uppercase;
+.footer-img {
+    max-height: 350px;
 }
-
-.contacts{
-    display: flex;
+@media (max-width: 760px) {
+  .footer-img {
+    max-height: auto;
+    width: 100%;
+  }
 }

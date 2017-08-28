@@ -22,8 +22,8 @@ class App extends React.Component {
           <Join />
           {/* <Kirigami />
           <Contact id = 'id_contact' /> */}
-          <Footer />
         </div>
+      <Footer />
       </div>
     );
   }
