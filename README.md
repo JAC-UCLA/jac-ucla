@@ -1,6 +1,6 @@
 Hi friends,
 
-#####Setup
+##### Setup
 
 To start up react app, from the root directory run the following commands:
 
@@ -8,7 +8,7 @@ To start up react app, from the root directory run the following commands:
 
 > npm start
 
-#####Workflow
+##### Workflow
 
 The Navbar, About Us, Join Us, and Footer sections are the most complete in the Invision mockup.
 *Do not start coding the other components, such as Kirigami, as they might change significantly.
