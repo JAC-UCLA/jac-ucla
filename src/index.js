@@ -6,8 +6,8 @@ import NavBar from './comp/navbar.jsx';
 import Main from './comp/main.jsx';
 import About from './comp/about.jsx';
 import Join from './comp/join.jsx';
+import Kirigami from './comp/kirigami.jsx';
 import Footer from './comp/footer.jsx';
-console.log(CONTENT);
 
 class App extends React.Component {
   render() {
@@ -20,8 +20,8 @@ class App extends React.Component {
           <About content={CONTENT} />
           <span id="id_join" className="anchor"></span>          
           <Join />
-          {/* <Kirigami />
-          <Contact id = 'id_contact' /> */}
+          <Kirigami />
+          {/*<Contact id = 'id_contact' /> */}
         </div>
       <Footer />
       </div>
