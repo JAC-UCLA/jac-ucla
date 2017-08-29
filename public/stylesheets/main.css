@@ -52,3 +52,7 @@
     font-size: 1.2vw;
     margin-left: 5%;
 }
+
+.svg text{
+    font-family : "Encode Sans", sans-serif;
+}

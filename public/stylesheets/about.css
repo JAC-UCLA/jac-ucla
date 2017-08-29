@@ -2,7 +2,7 @@
     /* Mask: */
     background: #FFFFFC;
     margin-top: 2%;
-    padding-top: 8%;
+    padding-top: 5%;
     padding-bottom: 8%;
 }
 
@@ -22,22 +22,21 @@
     line-height: 26px;
     text-transform: uppercase;
     margin: auto;
-    padding: 3.5% 1%; /* top right bottom left */
+    padding: 3.7% 1%; /* top right bottom left */
     width: 70%;
 
 }
 
 .about-body{
     /* Hi, we’re UCLA's one: */
-    text-indent: 10px;
     font-family: Raleway;
     font-size: 20px;
     color: #AA507A;
-    letter-spacing: 2px;
-    line-height: 33px;
+    letter-spacing: 0px;
+    line-height: 37px;
     text-align: justify;
     width: 53%;
     margin : auto;
-    margin-top: 5%;
+    margin-top: 5.5%;
     padding: 3% 10%; /* top right bottom left */
 }
