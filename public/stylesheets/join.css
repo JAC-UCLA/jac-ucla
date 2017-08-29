@@ -1,9 +1,9 @@
 
 .join{
-    width: 100%;
     margin-top: 7%;
     display: flex;
     justify-content: space-evenly;
+    width: 99%;
 }
 
 .join-container{
