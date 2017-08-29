@@ -3,9 +3,8 @@
     "meetingday" : "Thursdays",
     "meetingtime" : "7-9PM",
     "about" : [
-        "Hi, we're UCLA's one and only Japanese Animation Club! Since 1991, we've been dedeicated to the appreciation of Japanese anime and culture, and those who enjoy it.",
-        "We have weekly club meetings, currently held on %d% %t% in %r%.",
-        "UCLA's Japanese Animation club is part of a larger network of collegiate anime clubs in California called \"Cal Animage\". The Cal-Animage network initially started so that different schools could work together to exchange manga/fansubbed tapes, since they were so hard to come by back then.",
-        "The club's original name is \"Cal-Animage Eta\", which means we're the 7th Cal-Animage club. Cal-Animage Alpha is in UC Berkeley. Cal-Animage Eta (us!) was founded over 25 years ago, making it one of the oldest clubs at UCLA!"
+        "Hi and welcome to UCLA’s Japanese Animation club webpage!",
+        "We’re a club dedicated to facilitating both on and off-campus gatherings for the appreciation of Japanese anime and culture! We welcome all anime fans to join us at our club-hosted events and local conventions, to meet with others who share the same passion for art and entertainment.",
+        "We have weekly club meetings, currently held on %d% %t% in %r%."
     ]
 }

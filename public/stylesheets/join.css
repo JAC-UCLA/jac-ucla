@@ -24,6 +24,7 @@
 
 .link{
     /* Rectangle: */
+    position: relative;
     word-wrap: break-word;
     height: 10em;
     width: 26.5%;
@@ -31,8 +32,18 @@
     padding: 1% 3% 2%;
 }
 
-.icon{
-    margin: 10px;
+.link:hover{
+    transform: scale(1.01);
+}
+
+
+.divLink{
+    position:absolute; 
+    width:100%;
+    height:100%;
+    top:0;
+    left: 0;
+    z-index: 1;
 }
 
 .facebook{
@@ -52,6 +63,14 @@
     font-size: 24px;
     color: #B1BE4E;
     letter-spacing: 3px;
+}
+
+.facebook .icon{
+    margin: 15px;
+}
+
+.mail .icon{
+    margin-bottom: 15px;
 }
 
 .mail,

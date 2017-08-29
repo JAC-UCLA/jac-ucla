@@ -43,6 +43,6 @@ ul.navbar {
 }
 /* Change the link color on hover */
 .navbar a:hover { 
-    background-color: #D3D3D3;
-
+    text-shadow: 0 0 15px #FDFEF2;
+    text-shadow: 0 0 5px #FDFEF2;
 }
