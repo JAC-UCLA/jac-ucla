@@ -18,9 +18,10 @@ class App extends React.Component {
           <Main content={CONTENT} />
           <span id="id_about" className="anchor"></span>
           <About content={CONTENT} />
+          <span id="id_kirigami" className="anchor"></span>
+          <Kirigami />
           <span id="id_join" className="anchor"></span>          
           <Join />
-          <Kirigami />
           {/*<Contact id = 'id_contact' /> */}
         </div>
       <Footer />
