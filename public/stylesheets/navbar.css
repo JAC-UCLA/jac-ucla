@@ -7,9 +7,8 @@
     z-index:100;
 
     text-align: right;
-    background-color: #B1BE4E;
+    background-color: #C2D346;
     font-family: Advent Pro;
-    font-weight: bold;
     font-size: 1.1vw;
     white-space: nowrap;
     color: #FFFFF4;
@@ -17,10 +16,10 @@
     box-shadow: 0px 0px 8px 2px #708090;
 }
 .navbar-logo {
-    padding-top: 0.7%;
+    padding-top: 0.5%;
     padding-left: 1%;
     float: left;
-    max-height: 2vw;
+    max-height: 2.5vw;
 }
 ul.navbar {
     width: 100%;
