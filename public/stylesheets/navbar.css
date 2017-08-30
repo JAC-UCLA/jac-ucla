@@ -7,8 +7,8 @@
     z-index:100;
 
     text-align: right;
-    background-color: #FCF9EE;
-    border-bottom: dashed .5px #FDFEF2;
+    background-color: rgba(252, 249, 238, .7);
+    border-bottom: solid .5px #FDFEF2;
     font-family: Advent Pro;
     font-size: 1.1vw;
     white-space: nowrap;
