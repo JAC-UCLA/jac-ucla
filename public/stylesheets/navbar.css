@@ -40,6 +40,8 @@ ul.navbar {
 }
 /* Change the link color on hover */
 .navbar a:hover { 
-    text-shadow: 0 0 15px #AA507A;
-    text-shadow: 0 0 5px #AA507A;
+    color: #FDFEF2;
+    transform: scale(1.1);
+    /* text-shadow: 0 0 15px #AA507A; */
+    text-shadow: 0 0 10px #AA507A;
 }
