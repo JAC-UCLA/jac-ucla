@@ -7,6 +7,7 @@ import Main from './comp/main.jsx';
 import About from './comp/about.jsx';
 import Join from './comp/join.jsx';
 import Kirigami from './comp/kirigami.jsx';
+import Fresh from './comp/fresh.jsx';
 import Footer from './comp/footer.jsx';
 
 class App extends React.Component {
@@ -20,7 +21,8 @@ class App extends React.Component {
           <About content={CONTENT} />
           <span id="id_kirigami" className="anchor"></span>
           <Kirigami />
-          <span id="id_join" className="anchor"></span>          
+          <span id="id_join" className="anchor"></span>
+          <Fresh />          
           <Join />
           {/*<Contact id = 'id_contact' /> */}
         </div>

@@ -1,0 +1,26 @@
+.fresh-wrapper{
+    height: 20%;
+    background-color: #FFFFFC;
+    max-width: 75%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.fresh-body{
+    padding: 18% 0;
+    margin-left: 17%;
+    width: 100%;
+    text-align: left;
+    font-family: Raleway-Regular;
+    font-size: 18px;
+    color: #4E4257;
+}
+
+.fresh-body div{
+    padding-top: 360px;
+    margin-left: 150px;
+}
+
+.fresh-svg{
+    float: left;
+}

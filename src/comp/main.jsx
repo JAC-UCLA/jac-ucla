@@ -8,12 +8,12 @@ var stamp =     (<svg height="201px" width="202px" version="1.1" viewBox="0 0 20
             <g id="Group" transform="translate(56.000000, 71.000000)">
                 <rect height="198" id="Rectangle-11" width="198.832873" rx="8" stroke="#BF5A8B" strokeWidth="3" x="1.5" y="1.5"/>
                 <text id="Japanese-Animation-C" fill="#AA507A" fontFamily="AdventPro-Bold, Advent Pro" fontSize="36">
-                    <tspan x="24.2526504" y="95.0357056">J</tspan>
-                    <tspan fontFamily=" Advent Pro" x="35.6766504" y="95">apanese</tspan>
-                    <tspan x="24.2526504" y="131.035706">A</tspan>
-                    <tspan fontFamily=" Advent Pro" x="43.2246504" y="131">nimation</tspan>
-                    <tspan x="24.2526504" y="167.035706">C</tspan>
-                    <tspan fontFamily=" Advent Pro" x="39.7326504" y="167">lub</tspan>
+                    <tspan x="26.2526504" y="95.0357056">J</tspan>
+                    <tspan fontFamily=" Advent Pro" x="37" y="95">APANESE</tspan>
+                    <tspan x="21.2526504" y="131.035706">A</tspan>
+                    <tspan fontFamily=" Advent Pro" x="40.2246504" y="131">NIMATION</tspan>
+                    <tspan x="21.2526504" y="167.035706">C</tspan>
+                    <tspan fontFamily=" Advent Pro" x="36.7326504" y="167">LUB</tspan>
                 </text>
                 <text id="UCLA" fill="#AA507A" fontFamily="Raleway-Medium, Raleway" fontSize="20">
                     <tspan x="24.0994475" y="46">UCLA</tspan>
@@ -33,12 +33,6 @@ const MainBanner = ({content}) => {
                 <h2>@ {content.meetingroom}</h2>
             </div>
             </div>
-            // <div className="main mainelement">
-            //     <img className="stamp" alt='' src={stamp}/>
-            //     <div className='meetinginfo'>
-            //         {content.meetingday} {content.meetingtime} @ {content.meetingroom}
-            //     </div>
-            // </div>
         );
 }
 export default MainBanner;
