@@ -9,15 +9,16 @@
 .fresh-body{
     padding: 18% 0;
     margin-left: 17%;
-    width: 100%;
     text-align: left;
-    font-family: Raleway-Regular;
+    font-family: Raleway-Regular;/* An extension of JAC,: */
+    line-height: 27px;
     font-size: 18px;
     color: #4E4257;
 }
 
 .fresh-body div{
-    padding-top: 360px;
+    width: 75%;
+    padding-top: 325px;
     margin-left: 150px;
 }
 
