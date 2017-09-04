@@ -18,10 +18,14 @@
 
 .fresh-body div{
     width: 75%;
-    padding-top: 325px;
+    padding-top: 225px;
     margin-left: 150px;
 }
 
 .fresh-svg{
     float: left;
+}
+
+.info{
+    margin-bottom: 5%;
 }

@@ -45,6 +45,10 @@ const Fresh = () => {
             <div className="fresh-body">
             {fresh}
                 <div>
+                <p className="info">
+                    Jamba Juice <br></br>
+                    Wednesday 8:00-10:00 PM
+                </p>
                 An extension of JAC, Fresh Produce sprang up as an artists’ collective to
     unite <br></br>the club's creative talents. Fresh Producs hopes to spread ideas, share <br></br>stories and make art.<br></br>
     The group is currently meets every week at Jamba Juice  to
