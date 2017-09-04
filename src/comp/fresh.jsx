@@ -53,7 +53,7 @@ const Fresh = () => {
                     Formerly an offshoot of UCLA's Japanese Animation Club, Fresh Productions (often known as "Fresh Produce") is a UCLA art club for artists of all levels! We offer workshops, drawing lessons, special art supplies, and more. Whether you're a traditional or digital artist, come join us to hang out, draw together, and make friends in a chill environment! 
                 </p>
                 <p>
-                    Check out our <a href="https://www.facebook.com/groups/drawtheworld/">Facebook page</a> for more info! You can also find us on Discord!
+                    Check out our <a target="_blank" href="https://www.facebook.com/groups/drawtheworld/">Facebook page</a> for more info! You can also find us on Discord!
                 </p>
                 </div>
             </div>

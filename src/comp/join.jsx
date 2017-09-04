@@ -12,7 +12,7 @@ const JoinBanner = () => {
                 <div className="join-container">
 
                 <div  className="discord link" >
-                <a href="https://discordapp.com/invite/eXnRJaY">
+                <a target="_blank" href="https://discordapp.com/invite/eXnRJaY">
                     <span className="divLink"></span>
                 </a>
                     <h1>can't wait to hang out?</h1>
@@ -21,7 +21,7 @@ const JoinBanner = () => {
                 </div>
 
                 <div className="facebook link">
-                    <a href="https://www.facebook.com/jacatucla/">
+                    <a target="_blank" href="https://www.facebook.com/jacatucla/">
                         <span className="divLink"></span>
                     </a>
                     <h1>Follow Us On</h1>
@@ -30,7 +30,7 @@ const JoinBanner = () => {
                 </div>
 
                 <div className="mail link">
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd1LARy-gEdloUDcXdvV6plctHIqchorBnfkr6lCXzj1knbpQ/viewform">
+                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd1LARy-gEdloUDcXdvV6plctHIqchorBnfkr6lCXzj1knbpQ/viewform">
                         <span className="divLink"></span>
                     </a>
                     <h1>Join Our Mailing List</h1>
