@@ -1,16 +1,15 @@
 .fresh-wrapper{
     height: 20%;
     background-color: #FFFFFC;
-    max-width: 75%;
-    margin: auto;
-    margin-top: 3%;
+
 }
 
 .fresh-body{
-    padding: 18% 0;
+    padding: 16% 0;
+    padding-right: 16%;
     margin-left: 17%;
     text-align: left;
-    font-family: Raleway-Regular;/* An extension of JAC,: */
+    font-family: Raleway;/* An extension of JAC,: */
     line-height: 27px;
     font-size: 18px;
     color: #4E4257;
@@ -26,6 +25,7 @@
     float: left;
 }
 
-.info{
+.fresh-info{
+    font-weight: bold;
     margin-bottom: 5%;
 }

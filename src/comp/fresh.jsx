@@ -41,19 +41,20 @@ var fresh = (<svg width="107" height="485" viewBox="0 0 107 485" xmlns="http://w
 
 const Fresh = () => {
     return (
-        <div className="fresh-wrapper">
+        <div className="fresh-wrapper mainelement">
             <div className="fresh-body">
             {fresh}
                 <div>
-                <p className="info">
+                <p className="fresh-info">
                     Jamba Juice <br></br>
                     Wednesday 8:00-10:00 PM
                 </p>
-                An extension of JAC, Fresh Produce sprang up as an artists’ collective to
-    unite <br></br>the club's creative talents. Fresh Producs hopes to spread ideas, share <br></br>stories and make art.<br></br>
-    The group is currently meets every week at Jamba Juice  to
-    chill and draw.<br></br>
-    Lessons are on topics from basic line art principals to digital painting <br></br>techniques. All skill levels welcome!
+                <p>
+                    Formerly an offshoot of UCLA's Japanese Animation Club, Fresh Productions (often known as "Fresh Produce") is a UCLA art club for artists of all levels! We offer workshops, drawing lessons, special art supplies, and more. Whether you're a traditional or digital artist, come join us to hang out, draw together, and make friends in a chill environment! 
+                </p>
+                <p>
+                    Check out our <a href="https://www.facebook.com/groups/drawtheworld/">Facebook page</a> for more info! You can also find us on Discord!
+                </p>
                 </div>
             </div>
         </div>
