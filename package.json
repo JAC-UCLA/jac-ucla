@@ -6,7 +6,10 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-dom-server": "0.0.5",
-    "react-scripts": "1.0.11"
+    "react-scripts": "1.0.11",
+    "react-svg": "^2.1.21",
+    "react-svg-inline": "^2.0.0",
+    "svg-to-jsx": "0.0.21"
   },
   "scripts": {
     "start": "react-scripts start",
