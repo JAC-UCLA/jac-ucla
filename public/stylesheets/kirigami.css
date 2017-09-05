@@ -24,10 +24,10 @@
     top: 0;
     right: 0;
     letter-spacing: 3px;
-    line-height: 60px;
     padding-right: 3%;
     padding-top: 8%;
-    font-size: 22px;
+    line-height: 3.4vw; /* was 60px */
+    font-size: 1.25vw; /* was 22px */
 }
 .kirigami-text h1{
     text-transform: uppercase;

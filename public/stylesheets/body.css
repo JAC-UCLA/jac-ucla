@@ -19,7 +19,7 @@ body {
     margin-bottom: 3%;
 }
 @media only screen 
-and (max-width : 760px) {
+and (max-width: 824px) {
     .mainelement {
       width: 98.5%;
     }
