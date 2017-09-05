@@ -17,7 +17,7 @@
 
 .fresh-body div{
     width: 75%;
-    padding-top: 225px;
+    padding-top: 150px;
     margin-left: 150px;
 }
 
@@ -26,6 +26,8 @@
 }
 
 .fresh-info{
-    font-weight: bold;
+    font-family: Advent Pro;
+    letter-spacing: .15vw;
+    font-size: 1.5vw;
     margin-bottom: 5%;
 }

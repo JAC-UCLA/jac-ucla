@@ -4,17 +4,13 @@
 
     /* padding-top: 14%;
     padding-bottom: 14%; */
-    
+    max-height: 423px;
     background-color: #FFFEEC;
     text-align: left;
 }
 
-.kirigami-logo {
-    max-width:75%;
-    fill: white;
-}
-.kirigami-logo:hover path{
-    fill: white;
+.kirigami-logo{
+    max-width : 75%;
 }
 
 .kirigami-text {
@@ -22,12 +18,12 @@
     position: absolute;
     text-align: center;
     top: 0;
-    right: 0;
+    right: 3%;
     letter-spacing: 3px;
     padding-right: 3%;
-    padding-top: 8%;
-    line-height: 3.4vw; /* was 60px */
-    font-size: 1.25vw; /* was 22px */
+    padding-top: 10%;
+    line-height: 2vw; /* was 60px */
+    font-size: 1.2vw; /* was 22px */
 }
 .kirigami-text h1{
     text-transform: uppercase;
