@@ -1,11 +1,5 @@
 .kirigami {
-    /* Draw the SVG. */
-    /* background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 100 100'> <path d='M0 0 L0 100 L75 0' fill='#956565' /></svg>"); */
-
-    /* padding-top: 14%;
-    padding-bottom: 14%; */
-    max-height: 423px;
-    background-color: #FFFEEC;
+    max-height: 30vw;
     text-align: left;
 }
 
@@ -16,17 +10,17 @@
 .kirigami-text {
     color: #956565;
     position: absolute;
-    text-align: center;
+    text-align: left;
     top: 0;
     right: 3%;
     letter-spacing: 3px;
-    padding-right: 3%;
+    padding-left: 3%;
     padding-top: 10%;
     line-height: 2vw; /* was 60px */
-    font-size: 1.2vw; /* was 22px */
+    font-size: 1.5vw; /* was 22px */
 }
 .kirigami-text h1{
     text-transform: uppercase;
-    padding-left: 30%;
-    padding-bottom: 5%;
+    padding-left: 20%;
+    padding-bottom: 3%;
 }

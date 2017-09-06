@@ -1,17 +1,16 @@
 .fresh-wrapper{
     height: 20%;
     background-color: #FFFFFC;
-
 }
 
 .fresh-body{
     padding: 16% 0;
-    padding-right: 16%;
+    padding-right: 25%;
     margin-left: 17%;
     text-align: left;
-    font-family: Raleway;/* An extension of JAC,: */
+    font-family: Raleway;
     line-height: 27px;
-    font-size: 18px;
+    font-size: 16px;
     color: #4E4257;
 }
 
@@ -22,6 +21,8 @@
 }
 
 .fresh-svg{
+    margin-left: 15%;
+    margin-top: 18%;
     float: left;
 }
 
@@ -30,4 +31,11 @@
     letter-spacing: .15vw;
     font-size: 1.5vw;
     margin-bottom: 5%;
+}
+
+.bg{
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    z-index: 0;
 }

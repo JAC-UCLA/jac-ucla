@@ -33,13 +33,11 @@ xmlnsXlink="http://www.w3.org/1999/xlink" className="kirigami-logo" transform="t
 const Kirigami = () => {
         return (
             <div className="kirigami mainelement">
-                {/* <div className="kirigami-text">Kirigami</div> */}
                 {kirigami}
                 <div className="kirigami-text">
                     <h1>JAC's Idol Group</h1>
-                    <h2>Beginner-friendly dance and cosplay!</h2>
-                    <h2>Weekly <u>Practice</u> and Quarterly <u>Peformances</u></h2>
-
+                    Beginner-friendly dance and cosplay! <br></br>
+                    Weekly <u>Practice</u> and Quarterly <u>Peformances</u>
                 </div>
             </div>
         );
