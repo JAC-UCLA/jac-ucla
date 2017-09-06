@@ -11,6 +11,10 @@
     line-height: 27px;
     font-size: 16px;
     color: #4E4257;
+
+    background-image: url('../freshbg.png');
+    background-position: right bottom; /*Positioning*/
+    background-repeat: no-repeat; /*Prevent showing multiple background images*/
 }
 
 .fresh-body div{
@@ -19,22 +23,51 @@
     margin-left: 115px;
 }
 
+@media only screen 
+and (max-width: 824px) {
+    .fresh-body {
+        padding-right: 10%;
+        background-size: 319px 236px;
+        font-size: 14px;
+    }
+    .fresh-body div {
+        padding-top: 5%;
+    }
+}
+
 .fresh-svg{
     margin-left: 12%;
     margin-top: 15%;
     float: left;
 }
 
+@media only screen 
+and (max-width: 824px) {
+    .fresh-svg {
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+}
+
 .fresh-info{
     font-family: Advent Pro;
     letter-spacing: .15vw;
-    font-size: 1.5vw;
+    font-size: 22px;
     margin-bottom: 5%;
+    z-index: 1;
 }
 
-.bg{
+@media only screen 
+and (max-width: 824px) {
+    .fresh-info {
+        font-size: 20px;
+    }
+}
+
+.fresh-bg{
     position: absolute;
     right: 0px;
     bottom: 0;
     z-index: 0;
+    user-select: none;
 }
