@@ -25,7 +25,7 @@ var stamp =     (<svg height="201px" width="202px" version="1.1" viewBox="0 0 20
 </svg>)
 
 var jacie = (
-    <svg height="309px" width="181px" version="1.1" viewBox="0 0 181 309" transform="scale(.9, .9)" className="jacie">
+    <svg height="309px" width="181px" version="1.1" viewBox="0 0 181 309" transform="translate(0, 39) scale(.9, .9)" className="jacie">
 	<defs/>
 	<g id="Welcome" fill="none" stroke="none" strokeWidth="1">
 		<g id="Desktop-HD" fill="#AA507A" transform="translate(-321.000000, -183.000000)">
@@ -64,10 +64,12 @@ var jacie = (
 const MainBanner = ({content}) => {
         return (
             <div className='main mainelement'>
+            <div className="container">
+            {stamp}
             <div className='meetinginfo'>
-                {stamp}
                 <h2>{content.meetingday} {content.meetingtime}</h2>
-                <h2>@ {content.meetingroom}</h2>
+                <h2>@{content.meetingroom}</h2>
+            </div>
             </div>
             {jacie}
             </div>

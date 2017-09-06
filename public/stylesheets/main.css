@@ -1,11 +1,11 @@
 .main {
     background: #FFFFFC;
     font-family: Advent Pro;
-    padding-bottom: 5%;
-    padding-top: 2%;
+    padding-top: 5%;
+    padding-left: 5%;
     box-shadow: 0px 0px 5px 2px #FFFFFC;
     height: 500px;
-    width: 80%;
+    width: 70%;
     display: flex;
 }
 
@@ -25,11 +25,11 @@
     font-weight: bold;
     font-size: 26px;
     color: #AA507A;
-    letter-spacing: 2px;
-    line-height: 20px;
+    letter-spacing: 1.2px;
+    line-height: 15px;
     text-align: left;
     font-size: 1.2vw;
-    margin-left: 7%;
+    margin-top: 55px;
 }
 
 .svg text{
