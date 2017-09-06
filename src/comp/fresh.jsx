@@ -58,7 +58,7 @@ const Fresh = () => {
                 </p>
                 </div>
             </div>
-            <img className="bg" src= {require('../assets/freshbg.png')} alt=""/>
+            {/* <img className="fresh-bg" src= {require('../assets/freshbg.png')} alt=""/> */}
         </div>
     )
 }
