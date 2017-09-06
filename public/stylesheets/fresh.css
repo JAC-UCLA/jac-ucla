@@ -4,9 +4,8 @@
 }
 
 .fresh-body{
-    padding: 16% 0;
-    padding-right: 25%;
-    margin-left: 17%;
+    padding: 16%;
+    padding-right: 23%;
     text-align: left;
     font-family: Raleway;
     line-height: 27px;
@@ -17,12 +16,12 @@
 .fresh-body div{
     width: 75%;
     padding-top: 150px;
-    margin-left: 150px;
+    margin-left: 115px;
 }
 
 .fresh-svg{
-    margin-left: 15%;
-    margin-top: 18%;
+    margin-left: 12%;
+    margin-top: 15%;
     float: left;
 }
 
