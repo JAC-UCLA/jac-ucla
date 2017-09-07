@@ -2,7 +2,6 @@
     background: #FFFFFC;
     font-family: Advent Pro;
     padding-top: 5%;
-    padding-left: 15%;
     box-shadow: 0px 0px 5px 2px #FFFFFC;
     height: 500px;
     width: 100%;
@@ -13,10 +12,8 @@
     margin-top: 5%;
 }
 
-.stamp-content{
-    letter-spacing: 3px;
-    font-size: 1.4vw; /* Text will always scale to fill box */
-    text-align: left;
+.main-container{
+    margin-left: 15%;
 }
 
 .meetinginfo {
@@ -30,6 +27,7 @@
     text-align: left;
     font-size: 1.2vw;
     margin-top: 55px;
+    text-align: left;
 }
 
 .svg text{

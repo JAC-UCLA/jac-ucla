@@ -64,13 +64,13 @@ var jacie = (
 const MainBanner = ({content}) => {
         return (
             <div className='main mainelement'>
-            <div className="container">
+            <div className="main-container">
            		{stamp}
 				<div className='meetinginfo'>
 					<h2>{content.meetingday} {content.meetingtime}</h2>
 					<h2>@{content.meetingroom}</h2>
 				</div>
-            </div>
+			</div>
             {jacie}
             </div>
         );

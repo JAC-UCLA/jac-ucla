@@ -1,23 +1,20 @@
 .kirigami {
-    max-height: 30vw;
     text-align: left;
+    height: 372px;
 }
 
 .kirigami-logo{
-    max-width : 75%;
 }
 
 .kirigami-text {
     color: #956565;
     position: absolute;
     text-align: left;
-    top: 0;
-    right: 3%;
     letter-spacing: 3px;
-    padding-left: 3%;
-    padding-top: 10%;
     line-height: 2vw; /* was 60px */
     font-size: 1.5vw; /* was 22px */
+    right: 10px;
+    top: 39%;
 }
 .kirigami-text h1{
     text-transform: uppercase;
