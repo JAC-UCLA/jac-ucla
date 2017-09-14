@@ -1,3 +1,16 @@
+.jacie-draw{
+    stroke-dasharray: 5;
+    stroke-dashoffset: 0;
+    opacity: 1;
+    animation: jacie-draw 5s linear;
+}
+
+@keyframes jacie-draw{
+    to {
+        opacity: 0;
+    }
+}
+
 .main {
     background: #FFFFFC;
     font-family: Advent Pro;
@@ -32,4 +45,9 @@
 
 .svg text{
     font-family : "Encode Sans", sans-serif;
+}
+
+.jacie{
+    margin-top: -9.5%;
+    margin-bottom: 0;
 }
