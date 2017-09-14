@@ -24,7 +24,7 @@ var stamp =     (<svg height="201px" width="202px" version="1.1" viewBox="0 0 20
 </g>
 </svg>)
 
-var jacie = (<svg width="980pt" height="700" viewBox="0 0 980 525" transform="scale(-1.043, 1.043)" className="jacie">
+var jacie = (<svg width="980pt" height="700" viewBox="0 0 980 525" transform="scale(-.9, .9)" className="jacie">
     <g id="#6e385cff" fill="#6e385c">
         <path d="M 0.00 0.00 L 5.14 0.00 C 3.99 2.74 8.78 2.73 7.66 0.00 L 22.80 0.00 C 19.52 16.57 17.84 33.43 15.08 50.10 C 12.42 67.93 14.02 86.11 11.89 103.97 C 10.63 103.97 9.38 103.95 8.12 103.91 C 6.70 103.23 5.32 102.47 3.92 101.73 C 5.11 104.45 5.97 107.30 6.15 110.28 C 8.77 113.25 8.60 116.98 7.20 120.46 C 4.78 118.86 2.34 117.28 0.00 115.57 L 0.00 109.79 C 1.62 109.22 1.62 108.66 0.00 108.11 L 0.00 98.10 C 2.65 95.89 3.21 93.25 0.00 91.23 L 0.00 67.82 C 2.45 66.84 3.00 63.65 0.00 63.03 L 0.00 51.44 C 3.18 51.02 6.34 50.45 9.43 49.58 C 7.19 48.66 4.91 47.87 2.62 47.10 C 2.34 46.51 1.77 45.33 1.48 44.74 C 3.32 43.58 5.15 42.41 7.00 41.26 C 6.21 39.71 5.42 38.17 4.62 36.64 C 2.87 38.39 1.27 40.30 0.00 42.43 L 0.00 0.00 M 10.31 10.30 C 10.09 15.39 15.26 7.99 10.31 10.30 M 1.12 69.97 C 1.08 70.71 1.00 72.20 0.96 72.94 C 2.16 73.26 3.36 73.58 4.57 73.88 C 3.90 72.19 2.64 70.92 1.12 69.97 M 7.31 90.25 C 7.31 91.61 7.32 92.98 7.35 94.34 C 8.90 93.38 9.33 91.58 9.91 89.99 C 9.26 90.05 7.96 90.18 7.31 90.25 Z"
         />
@@ -407,14 +407,16 @@ var jacie = (<svg width="980pt" height="700" viewBox="0 0 980 525" transform="sc
 const MainBanner = ({content}) => {
         return (
             <div className='main mainelement'>
-            <div className="main-container">
-           		{stamp}
-				<div className='meetinginfo'>
-					<h2>{content.meetingday} {content.meetingtime}</h2>
-					<h2>@{content.meetingroom}</h2>
+                <div className="main-container">
+                    {stamp}
+                    <div className='meetinginfo'>
+                        <h2>{content.meetingday} {content.meetingtime}</h2>
+                        <h2>@{content.meetingroom}</h2>
+                    </div>
+                </div>
+				<div className='jacie-container'>
+				    {jacie}
 				</div>
-			</div>
-            {jacie}
             </div>
         );
 }

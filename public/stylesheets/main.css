@@ -1,8 +1,6 @@
 .jacie-draw{
     stroke-dasharray: 5;
     stroke-dashoffset: 0;
-    opacity: 1;
-    animation: jacie-draw 5s linear;
 }
 
 @keyframes jacie-draw{
@@ -12,9 +10,9 @@
 }
 
 .main {
+    overflow: hidden;
     background: #FFFFFC;
     font-family: Advent Pro;
-    padding-top: 5%;
     box-shadow: 0px 0px 5px 2px #FFFFFC;
     height: 500px;
     width: 100%;
@@ -22,7 +20,7 @@
 }
 
 .stamp-box{
-    margin-top: 5%;
+    margin-top: 25%;
 }
 
 .main-container{
@@ -48,6 +46,11 @@
 }
 
 .jacie{
-    margin-top: -9.5%;
-    margin-bottom: 0;
+    transform: scale(-.7, .7);
+    margin-top: 0;
+}
+
+.jacie-container{
+    margin-top: -103px;
+    margin-left: -90px;
 }
