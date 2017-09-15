@@ -1,7 +1,7 @@
 import React from 'react';
 
 var kirigami = (<svg width="940" height="496" viewBox="0 0 940 496" xmlns="http://www.w3.org/2000/svg"
-xmlnsXlink="http://www.w3.org/1999/xlink" className="kirigami-logo">
+xmlnsXlink="http://www.w3.org/1999/xlink" transform="scale(.9,.9), translate(-50, -30)"className="kirigami-logo">
     <defs>
         <polygon id="path-1" points="0 0 943.5 0 471.75 258.621329 0 498" />
     </defs>
@@ -33,7 +33,9 @@ xmlnsXlink="http://www.w3.org/1999/xlink" className="kirigami-logo">
 const Kirigami = () => {
         return (
             <div className="kirigami mainelement">
-            {kirigami}
+                <div className="kirigami-logo-container">
+                    {kirigami}
+                </div>
                 <div className="kirigami-text">
                     <h1>JAC's Idol Group</h1>
                     Beginner-friendly dance and cosplay! <br></br>

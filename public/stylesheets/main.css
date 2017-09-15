@@ -15,12 +15,13 @@
     font-family: Advent Pro;
     box-shadow: 0px 0px 5px 2px #FFFFFC;
     height: 500px;
+    text-align: left;
     width: 100%;
     display: flex;
 }
 
 .stamp-box{
-    margin-top: 25%;
+    margin-top: 15%;
 }
 
 .main-container{
@@ -34,9 +35,9 @@
     font-size: 26px;
     color: #AA507A;
     letter-spacing: 1.2px;
-    line-height: 15px;
+    line-height: 1.7vw;
     text-align: left;
-    font-size: 1.2vw;
+    font-size: 18px;
     margin-top: 55px;
     text-align: left;
 }
@@ -47,10 +48,28 @@
 
 .jacie{
     transform: scale(-.7, .7);
-    margin-top: 0;
 }
 
 .jacie-container{
-    margin-top: -103px;
-    margin-left: -90px;
+    display: flex;
+    justify-content: grow;
+    margin-top: -105px;
+    margin-left: 25%;
+}
+@media (max-width: 1900px){
+    .jacie-container{
+        margin-left: 16%;
+    }
+}
+
+@media (max-width: 1700px){
+    .jacie-container{
+        margin-left: 7%;
+    }
+}
+
+@media (max-width: 1500px){
+    .jacie-container{
+        margin-left: -2.5%;
+    }
 }

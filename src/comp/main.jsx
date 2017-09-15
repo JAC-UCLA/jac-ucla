@@ -414,8 +414,8 @@ const MainBanner = ({content}) => {
                         <h2>@{content.meetingroom}</h2>
                     </div>
                 </div>
-				<div className='jacie-container'>
-				    {jacie}
+                <div className='jacie-container'>
+				        {jacie}
 				</div>
             </div>
         );

@@ -1,23 +1,36 @@
 .kirigami {
     text-align: left;
-    height: 372px;
-}
-
-.kirigami-logo{
+    width: 75%;
+    overflow: hidden;
+    height: 439px;
 }
 
 .kirigami-text {
-    color: #956565;
     position: absolute;
+    color: #956565;
     text-align: left;
     letter-spacing: 3px;
-    line-height: 2vw; /* was 60px */
+    line-height: 2.5vw; /* was 60px */
     font-size: 1.5vw; /* was 22px */
-    right: 10px;
-    top: 39%;
+    margin-left: 55%;
+    margin-top: -25%;
 }
+
+@media (max-width: 1700px){
+
+    .kirigami-text {
+        margin-top: -33%;
+    }
+    
+}
+
+@media (max-width: 800px){
+    .kirigami-text{
+        margin-top: -43%;
+    }
+}
+
 .kirigami-text h1{
     text-transform: uppercase;
     padding-left: 20%;
-    padding-bottom: 3%;
 }
