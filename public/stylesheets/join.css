@@ -17,7 +17,7 @@
 .banner{
     z-index: 1;
     margin-top: -60px;
-    width: 100%;
+    /* width: 100%; LMAO IMMA FIX THIS */
 }
 
 .link{
