@@ -1,5 +1,5 @@
 import React from 'react';
-// import jaciesvg from '../assets/jacie.png';
+import downsvg from '../assets/down.svg';
 
 var stamp =     (<svg height="201px" width="202px" version="1.1" viewBox="0 0 202 201" className="stamp-box">
 <defs/>
@@ -35,7 +35,9 @@ const MainBanner = ({content}) => {
                         <h2>@{content.meetingroom}</h2>
                     </div>
                 </div>
-                <div class = "main-arrow"></div>
+                <div className="main-arrow animated bounce">
+                    <object data={downsvg} width="40" height="40" alt="" />
+                </div>
             </div>
         );
 }
