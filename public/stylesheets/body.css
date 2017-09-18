@@ -1,7 +1,7 @@
 body {
   text-align: center;
   background-color: #FCF9EE;
-  padding-top: 56px; /* This is so the navbar doesn't cover the main content. */
+  /* padding-top: 56px;  This is so the navbar doesn't cover the main content.  */
   font-family: Advent Pro;
 
   margin: 0 0;
@@ -14,7 +14,7 @@ body {
     text-align: center;
     margin: 0 auto;
     box-shadow: 0px 0px 5px 2px #999955;
-    position: relative;
+    /* position: relative; */
     
     margin-bottom: 3%;
 }
@@ -23,12 +23,4 @@ and (max-width: 824px) {
     .mainelement {
       width: 98.5%;
     }
-}
-
-/* Used as anchors for the navbar. */
-.anchor {
-  display: block;
-  height: 60px;
-  margin-top:-60px;
-  visibility:hidden;
 }

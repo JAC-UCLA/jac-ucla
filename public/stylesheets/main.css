@@ -1,31 +1,57 @@
-.jacie-draw{
-    stroke-dasharray: 5;
-    stroke-dashoffset: 0;
-}
-
-@keyframes jacie-draw{
-    to {
-        opacity: 0;
-    }
-}
-
 .main {
-    overflow: hidden;
     background: #FFFFFC;
     font-family: Advent Pro;
     box-shadow: 0px 0px 5px 2px #FFFFFC;
-    height: 500px;
-    text-align: left;
     width: 100%;
-    display: flex;
+    height: 100vh;
+
+    background-image: url('../jaciebg.png');
+    background-size: auto 94%;
+    background-position: right bottom; /* Stuck to right. */
+    background-repeat: no-repeat; /*Prevent showing multiple background images*/
+
+    overflow: hidden; /* The stamp can sometimes extend past the main div. */
 }
 
-.stamp-box{
-    margin-top: 15%;
+@media (max-width: 824px){
+    .main {
+        background-image: none;    
+    }
 }
 
-.main-container{
-    margin-left: 15%;
+/* Contains the stamp and the meetinginfo. */
+.main-container {
+     /* background: repeating-linear-gradient(
+        40deg,
+        rgb(252, 249, 238),
+        rgb(252, 249, 238) 40px,
+        #FFFFFC 40px,
+        #FFFFFC 60px
+    );    */
+    background-color: #FFFFFC;  
+    border-radius: 20px;
+
+    float: left; 
+
+    margin-left: 9%;
+    margin-top: 10%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 1.6%;
+    /* Needed to prevent padding-top from adding to height of this div. */
+    box-sizing: border-box;
+}
+
+@media (max-width: 824px){
+    .main-container {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        padding-top: 25%;
+    }
 }
 
 .meetinginfo {
@@ -36,40 +62,6 @@
     color: #AA507A;
     letter-spacing: 1.2px;
     line-height: 1.7vw;
-    text-align: left;
     font-size: 18px;
     margin-top: 55px;
-    text-align: left;
-}
-
-.svg text{
-    font-family : "Encode Sans", sans-serif;
-}
-
-.jacie{
-    transform: scale(-.7, .7);
-}
-
-.jacie-container{
-    display: flex;
-    justify-content: grow;
-    margin-top: -105px;
-    margin-left: 25%;
-}
-@media (max-width: 1900px){
-    .jacie-container{
-        margin-left: 16%;
-    }
-}
-
-@media (max-width: 1700px){
-    .jacie-container{
-        margin-left: 7%;
-    }
-}
-
-@media (max-width: 1500px){
-    .jacie-container{
-        margin-left: -2.5%;
-    }
 }

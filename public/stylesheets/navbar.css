@@ -31,6 +31,14 @@ ul.navbar {
     width: 10%;
 }
 
+/* Used as anchors for the navbar. */
+.anchor {
+  display: block;
+  height: 60px;
+  margin-top:-60px;
+  visibility:hidden;
+}
+
 @media(max-width: 1500px){
     .navbar li {
         width: 15%;
