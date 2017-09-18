@@ -28,7 +28,7 @@
         #FFFFFC 40px,
         #FFFFFC 60px
     );    */
-    background-color: #FFFFFC;  
+    background-color: #FFFFFC;   
     border-radius: 20px;
 
     float: left; 
@@ -38,19 +38,23 @@
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 1.6%;
+
     /* Needed to prevent padding-top from adding to height of this div. */
     box-sizing: border-box;
 }
 
 @media (max-width: 824px){
     .main-container {
+        background-color: #FCF9EE;
+
         position: absolute;
         left: 0;
         right: 0;
         top: 0;
         bottom: 0;
         margin: auto;
-        padding-top: 25%;
+
+        padding-top: 25vh;
     }
 }
 

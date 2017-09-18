@@ -29,13 +29,13 @@ const MainBanner = ({content}) => {
         return (
             <div className='main mainelement'>
                 <div className="main-container">
-                    {stamp}
+                    <div className="main-stamp">{stamp}</div>
                     <div className='meetinginfo'>
                         <h2>{content.meetingday} {content.meetingtime}</h2>
                         <h2>@{content.meetingroom}</h2>
                     </div>
-                </div> 
-                {/* <img src={jaciesvg} className="main-jacie"></img> */}
+                </div>
+                <div class = "main-arrow"></div>
             </div>
         );
 }
