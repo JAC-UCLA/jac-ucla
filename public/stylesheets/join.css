@@ -95,7 +95,7 @@
 
 @media (max-width: 824px) {
     .join-banner{
-        zoom: .7;
+        zoom: .6;
     }
     .join-container{
         flex-direction: column;
