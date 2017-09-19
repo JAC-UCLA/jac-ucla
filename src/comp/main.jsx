@@ -36,7 +36,7 @@ const MainBanner = ({content}) => {
                     </div>
                 </div>
                 <div className="main-arrow animated bounce">
-                    <object data={downsvg} width="40" height="40" alt="" />
+                    <img src={downsvg} width="40" height="40" alt="" />
                 </div>
             </div>
         );

@@ -1,8 +1,7 @@
 .about{
-    /* Mask: */
     background: #FFFFFC;
-    padding-top: 5%;
-    padding-bottom: 8%;
+
+    padding: 2% 3%
 }
 
 .about-title,
@@ -18,12 +17,10 @@
     font-size: 26px;
     color: #AA507A;
     letter-spacing: 2px;
-    line-height: 26px;
     text-transform: uppercase;
-    margin: auto;
-    padding: 3.7% 1%; /* top right bottom left */
-    width: 70%;
 
+    margin-bottom: 2%;
+    padding: 2% 0;
 }
 
 .about-body{
@@ -33,9 +30,65 @@
     color: #AA507A;
     letter-spacing: 0px;
     line-height: 37px;
-    text-align: justify;
-    width: 53%;
-    margin : auto;
-    margin-top: 5.5%;
-    padding: 3% 10%; /* top right bottom left */
+
+    padding: 0% 2%;
+}
+
+.about-jacie {
+    position: relative;
+    max-width: 250px;
+    top: 70px;
+}
+
+@media only screen 
+and (max-width: 824px) {
+    .about-body {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .about-jacie {
+        top: 67px;
+    }
+}
+
+
+/* Bootstrap carousel customizations.  */
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+.carousel {
+    width: 75%;
+    margin: 4% auto;
+}
+.carousel-control {
+    background:none!important;
+}
+.left-icon, .right-icon {
+    position:absolute;
+    top:50%;
+    margin-top:-10px;
+    z-index:5;
+    display:inline-block;
+    width:30px;height:30px;
+    margin-top:-10px;
+    font-size:30px;
+}
+.left-icon {
+    left:25%;
+    margin-left:-10px;
+}
+.right-icon {
+    right:25%;
+    margin-right:-10px;
+}
+
+
+@media only screen 
+and (max-width: 824px) {
+    .left-icon {
+        left: -30%;
+    }
+    .right-icon {
+        right: -30%;
+    }
 }

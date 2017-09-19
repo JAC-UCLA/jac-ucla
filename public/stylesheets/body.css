@@ -17,6 +17,8 @@ body {
     /* position: relative; */
     
     margin-bottom: 3%;
+
+    box-sizing: border-box;
 }
 @media only screen 
 and (max-width: 824px) {
