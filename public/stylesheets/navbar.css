@@ -11,7 +11,7 @@
     border-bottom: solid .5px #FDFEF2;
     font-family: Advent Pro;
     font-size: 16px;
-    white-space: nowrap;
+    /* white-space: nowrap; */
 
     height: 52px;
 }
@@ -52,9 +52,8 @@ ul.navbar {
         height: 46px;
     }
     .navbar li{
-        width: 16%;
+        width: 14%;
         overflow: hidden;
-        font-size: 12px;
     }
     .navbar-logo {
         padding: 9px 2%;
@@ -64,6 +63,12 @@ ul.navbar {
     .anchor {
         height: 49px;
         margin-top: -49px;
+    }
+}
+@media(max-width: 790px) {
+    .navbar li{
+        font-size: 10px;
+        margin-top: -8px;
     }
 }
 .navbar a {
