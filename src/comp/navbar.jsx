@@ -8,8 +8,8 @@ const Navbar = () => {
                     <li><a href="#id_about">ABOUT</a></li>
                     <li><a href="#id_fresh">FRESH PRODUCE</a></li>
                     <li><a href="#id_kirigami">KIRIGAMI</a></li>
-                    <li><a href="#id_join">JOIN US</a></li>
-                    <li><a href="#id_contact">CONTACT US</a></li>
+                    <li><a href="#id_join">SOCIAL</a></li>
+                    <li><a href="mailto:jacucla@gmail.com">CONTACT</a></li>
                 </ul>
             </div>
         );

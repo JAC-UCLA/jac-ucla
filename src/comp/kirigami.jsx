@@ -1,6 +1,6 @@
 import React from 'react';
 
-var kirigami = (<svg width="940" height="496" viewBox="0 0 940 496" xmlns="http://www.w3.org/2000/svg"
+var kirigami = (<svg className="kirigami-logo" width="940" height="496" viewBox="0 0 940 496" xmlns="http://www.w3.org/2000/svg"
 xmlnsXlink="http://www.w3.org/1999/xlink" transform="scale(.9,.9), translate(-50, -30)"className="kirigami-logo">
     <defs>
         <polygon id="path-1" points="0 0 943.5 0 471.75 258.621329 0 498" />
@@ -33,14 +33,14 @@ xmlnsXlink="http://www.w3.org/1999/xlink" transform="scale(.9,.9), translate(-50
 const Kirigami = () => {
         return (
             <div className="kirigami mainelement">
-                <div className="kirigami-logo-container">
-                    {kirigami}
-                </div>
+                {kirigami}
+                
                 <div className="kirigami-text">
                     <h1>JAC's Idol Group</h1>
-                    Beginner-friendly dance and cosplay! <br></br>
-                    Weekly Practice and Quarterly Performances
-                </div>
+                    <p>Beginner-friendly dance and cosplay!</p>
+                    <p>Weekly Practice and Quarterly Performances</p>
+                    <p>Check us out on <a href="https://www.facebook.com/KiRiGaMiDancers/">Facebook</a>!</p>
+                </div> 
             </div>
         );
 }

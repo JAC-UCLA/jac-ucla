@@ -1,36 +1,74 @@
 .kirigami {
-    text-align: left;
-    width: 75%;
+    height: 630px;
     overflow: hidden;
-    height: 439px;
+    padding-right: 50px;
+    text-align: left; /* Used to align the kirigami logo to the left. */
+}
+
+.kirigami-logo {
+    margin-left: -2px; /* Kinda hacky, but solves the weird alignment problem with the kirigami logo. */
+    position: absolute;
+    z-index: 0;
 }
 
 .kirigami-text {
-    position: absolute;
     color: #956565;
-    text-align: left;
     letter-spacing: 3px;
-    line-height: 2.5vw; /* was 60px */
-    font-size: 1.5vw; /* was 22px */
-    margin-left: 55%;
-    margin-top: -25%;
-}
+    line-height: 60px; /* was 60px */
+    font-size: 22px; /* was 22px */
+    margin-top: 200px;
+    margin-left: 500px;
+    text-align: center;
+    z-index: 1;
+} 
 
-@media (max-width: 1700px){
-
-    .kirigami-text {
-        margin-top: -33%;
+/* Responsive af? ¯\_(ツ)_/¯ */
+@media (max-width: 1200px){
+    .kirigami-logo {
+        width: 800px;
+        margin-left: 4px;
+        margin-top: -31px;
     }
-    
-}
-
-@media (max-width: 800px){
     .kirigami-text{
-        margin-top: -43%;
+        margin-top: 300px;
+        margin-left: 100px;
+    }
+}
+@media (max-width: 1000px){
+    .kirigami-logo {
+        width: 600px;
+        margin-left: 14px;
+        margin-top: -79px;
+    }
+    .kirigami-text{
+        margin-top: 240px;
+        margin-left: 100px;
+    }
+}
+@media (max-width: 580px){
+    .kirigami-logo {
+        width: 400px;
+        margin-left: 25px;
+        margin-top: -127px;
+    }
+    .kirigami-text{
+        font-size: 20px;
+        line-height: 40px;
+        margin-top: 160px;
+        margin-left: 80px;
+    }
+}
+@media (max-width: 370px){
+    .kirigami-logo {
+        width: 300px;
+        margin-left: 30px;
+        margin-top: -150px;
+    }
+    .kirigami-text{
+        font-size: 16px;
+        line-height: 40px;
+        margin-top: 160px;
+        margin-left: 42px;
     }
 }
 
-.kirigami-text h1{
-    text-transform: uppercase;
-    padding-left: 20%;
-}
