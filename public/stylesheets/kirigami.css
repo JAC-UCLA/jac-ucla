@@ -15,12 +15,16 @@
 .kirigami-text {
     color: #956565;
     letter-spacing: 3px;
-    line-height: 60px; /* was 60px */
+    line-height: 30px; /* was 60px */
     font-size: 22px; /* was 22px */
-    margin-top: 200px;
+    margin-top: 250px;
     margin-left: 500px;
     text-align: center;
     z-index: 1;
+} 
+
+.kirigami-text a{
+    color: #956565;
 } 
 
 /* Responsive af? ¯\_(ツ)_/¯ */

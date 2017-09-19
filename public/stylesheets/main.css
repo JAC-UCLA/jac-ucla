@@ -11,8 +11,6 @@
     background-repeat: no-repeat; /*Prevent showing multiple background images*/
 
     overflow: hidden; /* The stamp can sometimes extend past the main div. */
-
-    margin-bottom: 1%;
 }
 
 @media (max-width: 824px){
@@ -31,7 +29,7 @@
         #FFFFFC 40px,
         #FFFFFC 60px
     );    */
-    background-color: #FFFFFC;   
+    background-color: rgba(255, 255, 252, .95);   
     border-radius: 20px;
 
     float: left; 

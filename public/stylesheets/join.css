@@ -9,7 +9,6 @@
     width: 100%;
     background: #FDFEF2;
     display: flex;
-    justify-content: space-evenly;
     padding: 1% 0 1%;
     position: relative;
 }
@@ -24,10 +23,10 @@
     /* Rectangle: */
     position: relative;
     word-wrap: break-word;
-    height: 10em;
     width: 26.5%;
     text-transform: uppercase;
     padding: 1% 3% 2%;
+    margin: .2% .2%;
 }
 
 .join-link:hover{
@@ -93,9 +92,9 @@
     letter-spacing: 3px;
 }
 
-@media (max-width: 824px) {
+@media (max-width: 1035px) {
     .join-banner{
-        zoom: .6;
+        transform: scale(.6);
     }
     .join-container{
         flex-direction: column;
@@ -104,11 +103,5 @@
         width: 90%;
         margin: auto;
         margin-bottom: 10px;
-    }
-}
-
-@media (max-width: 1270px) {
-    .join{
-        zoom: 0.65;
     }
 }
