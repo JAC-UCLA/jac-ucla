@@ -12,12 +12,14 @@
     font-family: Advent Pro;
     font-size: 16px;
     white-space: nowrap;
+
+    height: 52px;
 }
 .navbar-logo {
-    padding-top: 0.5%;
-    padding-left: 1%;
     float: left;
-    max-height: 2.5vw;
+    padding: 5px 0.7%;
+    max-width: 80%;
+    max-height: 80%;
 }
 ul.navbar {
     width: 100%;
@@ -45,9 +47,23 @@ ul.navbar {
     }
 }
 
-@media(max-width: 800px){
+@media(max-width: 824px){
+    .navbar {
+        height: 46px;
+    }
     .navbar li{
-        width: 18%;
+        width: 16%;
+        overflow: hidden;
+        font-size: 12px;
+    }
+    .navbar-logo {
+        padding: 9px 2%;
+        max-width: 60%;
+        max-height: 60%;
+    }
+    .anchor {
+        height: 49px;
+        margin-top: -49px;
     }
 }
 .navbar a {
