@@ -29,15 +29,15 @@
         #FFFFFC 40px,
         #FFFFFC 60px
     );    */
-    background-color: rgba(255, 255, 252, .95);   
+    background-color: rgba(255, 255, 252, .90);   
     border-radius: 20px;
 
     float: left; 
 
     margin-left: 9%;
     margin-top: 10%;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 22px;
+    padding-right: 22px;
     padding-top: 1.6%;
 
     /* Needed to prevent padding-top from adding to height of this div. */
@@ -46,21 +46,24 @@
 
 @media (max-width: 824px){
     .main {
-        background-color: #FCF9EE;
+        background-color:transparent;
     }
     .main-container {
+        background-color: transparent;
+
+        padding: 10px 10px;
+
+        float: none;
+        margin: 0 auto;
+        margin-top: 23vh;
+        max-width: 230px;
+    }
+    .main-stamp {
         background-color: #FCF9EE;
-
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-
-        padding-top: 23vh;
-
-        border-radius: 0px;
+        border-radius: 10px;
+    }
+    .meetinginfo {
+        background-color:#FCF9EE;
     }
 }
 
