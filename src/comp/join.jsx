@@ -20,19 +20,19 @@ var facebook = (<svg width="279" height="63" viewBox="0 0 279 63" xmlns="http://
 const JoinBanner = () => {
         return (
             <div className="join mainelement">
-                <img className="banner" src={banner} alt='' />
+                <img className="join-banner" src={banner} alt='' />
                 <div className="join-container">
 
-                <div  className="discord link" >
+                <div  className="discord join-link" >
                 <a target="_blank" href="https://discordapp.com/invite/eXnRJaY">
                     <span className="divLink"></span>
                 </a>
                     <h1>can't wait to hang out?</h1>
-                    <img  className="icon" src={discord} alt=''/><br></br>
+                    <img  className="join-icon" src={discord} alt=''/><br></br>
                     Join Our Discord!
                 </div>
 
-                <div className="facebook link">
+                <div className="facebook join-link">
                     <a target="_blank" href="https://www.facebook.com/jacatucla/">
                         <span className="divLink"></span>
                     </a>
@@ -41,12 +41,12 @@ const JoinBanner = () => {
                     For the latest updates on club events!
                 </div>
 
-                <div className="mail link">
+                <div className="mail join-link">
                     <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd1LARy-gEdloUDcXdvV6plctHIqchorBnfkr6lCXzj1knbpQ/viewform">
                         <span className="divLink"></span>
                     </a>
                     <h1>Join Our Mailing List</h1>
-                    <img className="icon" src={mail} alt=''/><br></br>
+                    <img className="join-icon" src={mail} alt=''/><br></br>
                     For Weekly Announcements
                 </div>
                 </div>

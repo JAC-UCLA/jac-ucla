@@ -14,13 +14,13 @@
     position: relative;
 }
 
-.banner{
+.join-banner{
     z-index: 1;
     margin-top: -60px;
     /* width: 100%; LMAO IMMA FIX THIS */
 }
 
-.link{
+.join-link{
     /* Rectangle: */
     position: relative;
     word-wrap: break-word;
@@ -30,7 +30,7 @@
     padding: 1% 3% 2%;
 }
 
-.link:hover{
+.join-link:hover{
     transform: scale(1.01);
 }
 
@@ -64,11 +64,11 @@
     letter-spacing: 3px;
 }
 
-.facebook .icon{
+.facebook .join-icon{
     margin: 15px;
 }
 
-.mail .icon{
+.mail .join-icon{
     margin-bottom: 15px;
 }
 
@@ -94,13 +94,13 @@
 }
 
 @media (max-width: 824px) {
-    .banner{
+    .join-banner{
         zoom: .7;
     }
     .join-container{
         flex-direction: column;
     }
-    .link{
+    .join-link{
         width: 90%;
         margin: auto;
         margin-bottom: 10px;
