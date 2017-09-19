@@ -5,6 +5,10 @@ body {
   font-family: Advent Pro;
 
   margin: 0 0;
+
+  background-image: url('../animebg-lighter.png');
+  background-repeat: repeat;
+  background-size: 500px;
 }
 
 /* Class for each subsection of the site. */
@@ -24,5 +28,7 @@ body {
 and (max-width: 824px) {
     .mainelement {
       width: 98.5%;
+
+      margin-bottom: 40px;
     }
 }

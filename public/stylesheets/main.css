@@ -11,11 +11,14 @@
     background-repeat: no-repeat; /*Prevent showing multiple background images*/
 
     overflow: hidden; /* The stamp can sometimes extend past the main div. */
+
+    margin-bottom: 1%;
 }
 
 @media (max-width: 824px){
     .main {
-        background-image: none;    
+        background-image: none;  
+        margin-bottom: 5px;  
     }
 }
 
@@ -55,6 +58,8 @@
         margin: auto;
 
         padding-top: 25vh;
+
+        border-radius: 0px;
     }
 }
 
