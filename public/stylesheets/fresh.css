@@ -1,11 +1,9 @@
 .fresh-wrapper{
-    height: 20%;
     background-color: #FFFFFC;
 }
 
 .fresh-body{
-    padding: 16%;
-    padding-right: 23%;
+    padding: 16% 20%;
     text-align: left;
     font-family: Raleway;
     line-height: 27px;
@@ -17,36 +15,10 @@
     background-repeat: no-repeat; /*Prevent showing multiple background images*/
 }
 
-.fresh-body div{
-    width: 75%;
-    padding-top: 150px;
-    margin-left: 115px;
-}
-
-@media only screen 
-and (max-width: 824px) {
-    .fresh-body {
-        padding-right: 10%;
-        background-size: 319px 236px;
-        font-size: 14px;
-    }
-    .fresh-body div {
-        padding-top: 5%;
-    }
-}
-
 .fresh-svg{
-    margin-left: 12%;
-    margin-top: 15%;
     float: left;
-}
-
-@media only screen 
-and (max-width: 824px) {
-    .fresh-svg {
-        margin-left: 10%;
-        margin-top: 10%;
-    }
+    margin-left: 7%;
+    margin-top: 4%;
 }
 
 .fresh-info{
@@ -59,15 +31,29 @@ and (max-width: 824px) {
 
 @media only screen 
 and (max-width: 824px) {
+
+    .fresh-body {
+        padding-top: 10%;
+        padding-right: 8%;
+        background-size: 255px 188px;
+        font-size: 14px;
+    }
+
+    .fresh-svg {
+        height: 270px;
+        padding-bottom: 20px;
+    }
+
+
+    .fresh-svg {
+        margin-left: 0%;
+        margin-top: 10%;
+    }
+
     .fresh-info {
-        font-size: 20px;
+        font-size: 18px;
+        margin-left: 0;
     }
 }
 
-.fresh-bg{
-    position: absolute;
-    right: 0px;
-    bottom: 0;
-    z-index: 0;
-    user-select: none;
-}
+

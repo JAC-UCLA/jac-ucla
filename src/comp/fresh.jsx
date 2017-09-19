@@ -1,6 +1,6 @@
 import React from 'react';
 
-var fresh = (<svg width="172" height="485" viewBox="0 0 175 485" xmlns="http://www.w3.org/2000/svg">
+var fresh = (<svg className="fresh-svg" width="172" height="485" viewBox="0 0 175 485" xmlns="http://www.w3.org/2000/svg">
     <g id="Symbols" fill="none" fillRule="evenodd">
         <g id="fresh" transform="translate(-21)">
             <g transform="translate(44)">
@@ -38,7 +38,7 @@ var fresh = (<svg width="172" height="485" viewBox="0 0 175 485" xmlns="http://w
 const Fresh = () => {
     return (
         <div className="fresh-wrapper mainelement">
-            <div className="fresh-svg">{fresh}</div>
+            {fresh}
             <div className="fresh-body">
                 <div>
                 <p className="fresh-info">
@@ -53,7 +53,6 @@ const Fresh = () => {
                 </p>
                 </div>
             </div>
-            {/* <img className="fresh-bg" src= {require('../assets/freshbg.png')} alt=""/> */}
         </div>
     )
 }
