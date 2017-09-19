@@ -1,7 +1,7 @@
 import React from 'react';
 import downsvg from '../assets/down.svg';
 
-var stamp =     (<svg height="201px" width="202px" version="1.1" viewBox="0 0 202 201" className="stamp-box">
+var stamp =     (<svg className="main-stamp" height="201px" width="202px" version="1.1" viewBox="0 0 202 201" className="stamp-box">
 <defs/>
 <g id="Welcome" fill="none" stroke="none" strokeWidth="1">
     <g id="Desktop-HD" transform="translate(-55.000000, -169.000000)">
