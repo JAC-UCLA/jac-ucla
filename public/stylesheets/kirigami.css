@@ -6,6 +6,7 @@
 }
 
 .kirigami-logo {
+    margin-top: 2px;
     margin-left: -2px; /* Kinda hacky, but solves the weird alignment problem with the kirigami logo. */
     position: absolute;
     z-index: 0;

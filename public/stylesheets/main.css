@@ -6,7 +6,7 @@
     height: 100vh;
 
     background-image: url('../jaciebg.png');
-    background-size: auto 94%;
+    background-size: auto 95%;
     background-position: right bottom; /* Stuck to right. */
     background-repeat: no-repeat; /*Prevent showing multiple background images*/
 
@@ -47,6 +47,9 @@
 }
 
 @media (max-width: 824px){
+    .main {
+        background-color: #FCF9EE;
+    }
     .main-container {
         background-color: #FCF9EE;
 
@@ -57,7 +60,7 @@
         bottom: 0;
         margin: auto;
 
-        padding-top: 25vh;
+        padding-top: 23vh;
 
         border-radius: 0px;
     }
@@ -82,8 +85,6 @@
 @media (max-width: 824px){
 
     .main-arrow {
-            fill: red;
-
         display: block;
         position: absolute;
         bottom: 0;
