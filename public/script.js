@@ -7,3 +7,11 @@ $(".main-arrow").click(function() {
         scrollTop: $("#id_about").offset().top
     }, 1000);
 })
+
+$(document).on('click', 'a', function(event){
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+});
