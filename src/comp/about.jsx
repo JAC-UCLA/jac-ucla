@@ -3,6 +3,13 @@ import jaciecute from '../assets/jaciecute.png';
 import left from '../assets/left.svg';
 import right from '../assets/right.svg';
 
+// Gallery photos.
+import pic1 from '../assets/photos/photo1.jpg';
+import pic2 from '../assets/photos/photo2.jpg';
+import pic3 from '../assets/photos/photo3.jpg';
+import pic4 from '../assets/photos/photo4.jpg';
+import pic5 from '../assets/photos/photo5.jpg';
+
 const About = ({content}) => {
     // Use %r%, %t%, and %d% in the about array in content to display the meeting
     // info in the about body.
@@ -28,19 +35,29 @@ const About = ({content}) => {
                         <li data-target="#about-carousel" data-slide-to="0" className="active"></li>
                         <li data-target="#about-carousel" data-slide-to="1"></li>
                         <li data-target="#about-carousel" data-slide-to="2"></li>
+                        <li data-target="#about-carousel" data-slide-to="3"></li>
+                        <li data-target="#about-carousel" data-slide-to="4"></li>
                     </ol>
                     <div className="carousel-inner">
                         <div className="item active">
-                            <img src={jaciecute} alt=""></img>
-                            <p className="carousel-caption">Test</p>
+                            <img className="carousel-img" src={pic2} alt=""></img>
+                            <p className="carousel-caption">JAC's 2017 Maid Cafe</p>
                         </div>
-
                         <div className="item">
-                            <img src={jaciecute} alt=""></img>
+                            <img className="carousel-img" src={pic1} alt=""></img>
+                            <p className="carousel-caption">JAC at Anime Expo 2017</p>
                         </div>
-
                         <div className="item">
-                            <img src={jaciecute} alt=""></img>
+                            <img className="carousel-img" src={pic3} alt=""></img>
+                            <p className="carousel-caption">JAC's 2017 Maid Cafe</p>
+                        </div>
+                        <div className="item">
+                            <img className="carousel-img" src={pic4} alt=""></img>
+                            <p className="carousel-caption">JAC at UCLA Geek Week</p>
+                        </div>
+                        <div className="item">
+                            <img className="carousel-img" src={pic5} alt=""></img>
+                            <p className="carousel-caption">Anime Night at Feast</p>
                         </div>
                     </div>
 
