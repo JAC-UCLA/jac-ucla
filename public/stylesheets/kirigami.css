@@ -3,13 +3,11 @@
     overflow: hidden;
     padding-right: 50px;
     text-align: left; /* Used to align the kirigami logo to the left. */
-}
 
-.kirigami-logo {
-    margin-top: 2px;
-    margin-left: -2px; /* Kinda hacky, but solves the weird alignment problem with the kirigami logo. */
-    position: absolute;
-    z-index: 0;
+    background-image: url('../kirigami.svg');
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 75%;
 }
 
 .kirigami-text {
@@ -27,35 +25,20 @@
     color: #956565;
 } 
 
-/* Responsive af? ¯\_(ツ)_/¯ */
+/* Responsive af? ¯\_(ツ)_/¯  */
 @media (max-width: 1200px){
-    .kirigami-logo {
-        width: 800px;
-        margin-left: 4px;
-        margin-top: -31px;
-    }
     .kirigami-text{
         margin-top: 300px;
         margin-left: 100px;
     }
 }
 @media (max-width: 1000px){
-    .kirigami-logo {
-        width: 600px;
-        margin-left: 14px;
-        margin-top: -79px;
-    }
     .kirigami-text{
         margin-top: 240px;
         margin-left: 100px;
     }
 }
 @media (max-width: 580px){
-    .kirigami-logo {
-        width: 400px;
-        margin-left: 25px;
-        margin-top: -127px;
-    }
     .kirigami-text{
         font-size: 20px;
         line-height: 40px;
@@ -64,11 +47,6 @@
     }
 }
 @media (max-width: 370px){
-    .kirigami-logo {
-        width: 300px;
-        margin-left: 30px;
-        margin-top: -150px;
-    }
     .kirigami-text{
         font-size: 16px;
         line-height: 40px;
