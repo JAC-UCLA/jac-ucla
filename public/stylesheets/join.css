@@ -7,16 +7,19 @@
 
 .join-container{
     width: 100%;
-    background: #FDFEF2;
     display: flex;
     padding: 1% 0 1%;
+
+    margin-left: 0.55%; /* Fixes the align left issue. */
     position: relative;
 }
 
 .join-banner{
     z-index: 1;
     margin-top: -60px;
-    /* width: 100%; LMAO IMMA FIX THIS */
+
+    max-width: 75%;
+    height: auto;
 }
 
 .join-link{
@@ -29,10 +32,10 @@
     margin: .2% .2%;
 }
 
+/* Not supported on mobile. */
 .join-link:hover{
-    transform: scale(1.01);
+    transform: scale(1.01); 
 }
-
 
 .divLink{
     position:absolute; 
@@ -91,7 +94,8 @@
 
 @media (max-width: 1035px) {
     .join-banner{
-        transform: scale(.6);
+        max-width: 50%;
+        /* transform: scale(.6); */
     }
     .join-container{
         flex-direction: column;
@@ -100,5 +104,26 @@
         width: 90%;
         margin: auto;
         margin-bottom: 10px;
+    }
+    .join-container{
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 824px) {
+    .join-banner {
+        max-width: 75%;
+    }
+    .facebook,.mail,.discord {
+        font-size: 20px;
+    }
+    .facebook {
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 420px /*lmao*/) {
+    .join-banner {
+        max-width: 85%;
     }
 }
