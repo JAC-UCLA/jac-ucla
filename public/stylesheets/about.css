@@ -58,7 +58,7 @@ and (max-width: 824px) {
     margin: 0 auto;
 }
 .carousel {
-    width: 75%;
+    width: 85%;
     margin: 4% auto;
     height: 400px;
 }
@@ -98,7 +98,7 @@ and (max-width: 824px) {
 and (max-width: 824px) {
     .carousel {
         height: 200px;
-        margin-bottom: 8%;
+        margin-bottom: 40px;
     }
     .carousel-img {
         max-height: 200px;
@@ -108,9 +108,9 @@ and (max-width: 824px) {
     }
 
     .left-icon {
-        left: -30%;
+        left: -68%;
     }
     .right-icon {
-        right: -30%;
+        right: -68%;
     }
 }
