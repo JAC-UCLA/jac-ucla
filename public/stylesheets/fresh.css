@@ -3,13 +3,13 @@
 }
 
 .fresh-body{
-    padding: 16% 20%;
+    padding: 20em 10em;
+    padding-bottom: 13em;
     text-align: left;
     font-family: Raleway;
     line-height: 27px;
     font-size: 16px;
     color: #4E4257;
-
     background-image: url('../freshbg.png');
     background-position: right bottom; /*Positioning*/
     background-repeat: no-repeat; /*Prevent showing multiple background images*/
@@ -17,8 +17,8 @@
 
 .fresh-svg{
     float: left;
-    margin-left: 7%;
-    margin-top: 4%;
+    margin-left: 7em;
+    margin-top: 9.5em;
 }
 
 .fresh-info{

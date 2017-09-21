@@ -11,6 +11,7 @@
     background-repeat: no-repeat; /*Prevent showing multiple background images*/
 
     overflow: hidden; /* The stamp can sometimes extend past the main div. */
+    margin-bottom: 7%;
 }
 
 @media (max-width: 824px){
@@ -74,7 +75,7 @@
     font-size: 26px;
     color: #AA507A;
     letter-spacing: 1.2px;
-    line-height: 1.7vw;
+    line-height: 25px;
     font-size: 18px;
     margin-top: 55px;
 }
