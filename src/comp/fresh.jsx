@@ -42,8 +42,9 @@ const Fresh = () => {
             <div className="fresh-body">
                 <div>
                 <p className="fresh-info">
-                    Jamba Juice <br></br>
-                    Wednesday 8:00-10:00 PM
+                    <b>Ackerman Jamba Juice Lounge</b><br></br>
+                    Wednesdays <br></br>
+                    8:00-10:00 PM
                 </p>
                 <p>
                     Formerly an offshoot of UCLA's Japanese Animation Club, Fresh Productions (often known as "Fresh Produce") is a UCLA art club for artists of all levels! We offer workshops, drawing lessons, special art supplies, and more. Whether you're a traditional or digital artist, come join us to hang out, draw together, and make friends in a chill environment! 

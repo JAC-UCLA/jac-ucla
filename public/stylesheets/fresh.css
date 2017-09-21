@@ -31,10 +31,13 @@
 
 @media only screen 
 and (max-width: 824px) {
-
+    .fresh-info {
+        margin-bottom: 30px;
+    }
     .fresh-body {
         padding-top: 10%;
         padding-right: 8%;
+        padding-left: 8%;
         background-size: 255px 188px;
         font-size: 14px;
     }
