@@ -44,12 +44,12 @@ const About = ({content}) => {
                             <p className="carousel-caption">JAC's 2017 Maid Cafe</p>
                         </div>
                         <div className="item">
-                            <img className="carousel-img" src={pic1} alt=""></img>
-                            <p className="carousel-caption">JAC at Anime Expo 2017</p>
-                        </div>
-                        <div className="item">
                             <img className="carousel-img" src={pic3} alt=""></img>
                             <p className="carousel-caption">JAC's 2017 Maid Cafe</p>
+                        </div>
+                        <div className="item">
+                            <img className="carousel-img" src={pic1} alt=""></img>
+                            <p className="carousel-caption">JAC at Anime Expo 2017</p>
                         </div>
                         <div className="item">
                             <img className="carousel-img" src={pic4} alt=""></img>
