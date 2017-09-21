@@ -39,6 +39,9 @@
     }
 }
 @media (max-width: 580px){
+    .kirigami {
+        background-size: 90%;
+    }
     .kirigami-text{
         font-size: 20px;
         line-height: 40px;
