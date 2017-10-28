@@ -7,6 +7,7 @@ import Main from './comp/main.jsx';
 import About from './comp/about.jsx';
 import Join from './comp/join.jsx';
 import Kirigami from './comp/kirigami.jsx';
+import Midnight from './comp/midnight.jsx';
 import Fresh from './comp/fresh.jsx';
 import Footer from './comp/footer.jsx';
 
@@ -23,6 +24,8 @@ class App extends React.Component {
           <Fresh />          
           <span id="id_kirigami" className="anchor"></span>
           <Kirigami />
+          <span id="id_midnight" className="anchor"></span>
+          <Midnight />
           <span id="id_join" className="anchor"></span>
           <Join />
         </div>

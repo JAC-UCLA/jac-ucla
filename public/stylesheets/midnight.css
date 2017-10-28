@@ -1,0 +1,76 @@
+.midnight {
+    height: 630px;
+    overflow: hidden;
+
+    background-image: url('../shigatsu.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: 50%;
+
+    text-align: center;
+}
+.midnight-text {
+    font-size: 40px;
+    color: #956565;
+    text-align: center;
+}
+.midnight-info {
+    padding: 40px 10vw;
+    font-size: 25px;
+    background-color: rgba(255,254,236, 0.8);
+}
+.midnight-subheading {
+    font-size: 45px;
+    background-color: rgba(255,254,236, 0.5);
+}
+.midnight-title {
+    font-size: 50px;
+    background-color: rgba(255,254,236, 0.5);
+}
+@media only screen 
+and (max-width: 1200px) {
+    .midnight {
+        background-size: 65%;
+    }
+    .midnight-title {
+        font-size: 35px;
+    }
+    .midnight-subheading {
+        font-size: 35px;
+    }
+}
+@media only screen 
+and (max-width: 824px) {
+    .midnight-title {
+        font-size: 35px;
+    }
+    .midnight-subheading {
+        font-size: 30px;
+    }
+    .midnight {
+        background-size: 80%;
+    }
+}
+@media (max-width: 580px){
+    .midnight-title {
+        font-size: 30px;
+    }
+    .midnight {
+        background-size: 100%;
+    }
+}
+@media (max-width: 380px){
+    .midnight-title{
+        font-size: 24px;
+    }
+    .midnight-subheading {
+        font-size: 23px;
+    }
+    .midnight-info {
+        font-size: 20px;
+    }
+    .midnight {
+        background-size: 120%;
+        height: 600px;
+    }
+}
