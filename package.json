@@ -2,7 +2,9 @@
   "name": "jac-ucla",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://locahost:3000",
   "dependencies": {
+    "express": "^4.16.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-dom-server": "0.0.5",
