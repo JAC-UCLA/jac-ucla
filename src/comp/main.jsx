@@ -1,7 +1,14 @@
 import React from 'react';
 import downsvg from '../assets/down.svg';
 
-var stamp =     (<svg className="main-stamp" height="201px" width="202px" version="1.1" viewBox="0 0 202 201" className="stamp-box">
+class MainBanner extends React.Component{
+
+    constructor(props) {
+        super()
+        this.state = props.content;
+      }
+
+stamp =     (<svg className="main-stamp" height="201px" width="202px" version="1.1" viewBox="0 0 202 201" className="stamp-box">
 <defs/>
 <g id="Welcome" fill="none" stroke="none" strokeWidth="1">
     <g id="Desktop-HD" transform="translate(-55.000000, -169.000000)">
@@ -25,14 +32,15 @@ var stamp =     (<svg className="main-stamp" height="201px" width="202px" versio
 </g>
 </svg>)
 
-const MainBanner = ({content}) => {
+    render() {
+        
         return (
             <div className='main mainelement'>
                 <div className="main-container">
-                    <div className="main-stamp">{stamp}</div>
+                    <div className="main-stamp">{this.stamp}</div>
                     <div className='meetinginfo'>
-                        <h2>{content.meetingday} {content.meetingtime}</h2>
-                        <h2>@{content.meetingroom}</h2>
+                        <h2>{this.state.meetingday} {this.state.meetingtime}</h2>
+                        <h2>@{this.state.meetingroom}</h2>
                     </div>
                 </div>
                 <div className="main-arrow animated bounce">
@@ -40,5 +48,6 @@ const MainBanner = ({content}) => {
                 </div>
             </div>
         );
-}
+        }
+} 
 export default MainBanner;

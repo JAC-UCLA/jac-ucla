@@ -1,41 +1,36 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './comp/app.jsx';
+import Callback from './comp/callback.jsx';
+import Admin from './comp/admin.jsx';
+import { Route, BrowserRouter, Switch } from 'react-router-dom';
+import history from './comp/history.jsx';
+import Auth from './comp/auth';
+import data from './content.json';
 
-import CONTENT from './content.json';
-import NavBar from './comp/navbar.jsx';
-import Main from './comp/main.jsx';
-import About from './comp/about.jsx';
-import Join from './comp/join.jsx';
-import Kirigami from './comp/kirigami.jsx';
-import Midnight from './comp/midnight.jsx';
-import Fresh from './comp/fresh.jsx';
-import Footer from './comp/footer.jsx';
-
-class App extends React.Component {
-  render() {
-    return (
-      <div>
-      <NavBar />
-        <div className="container">
-          <Main content={CONTENT} />
-          <span id="id_about" className="anchor"></span>
-          <About content={CONTENT} />
-          <span id="id_fresh" className="anchor"></span>
-          <Fresh />          
-          <span id="id_kirigami" className="anchor"></span>
-          <Kirigami />
-          <span id="id_midnight" className="anchor"></span>
-          <Midnight />
-          <span id="id_join" className="anchor"></span>
-          <Join />
-        </div>
-      <Footer />
-      </div>
-    );
+let content = data;
+const handleAuthentication = (nextState, replace) => {
+  if (/access_token|id_token|error/.test(nextState.location.hash)) {
+    auth.handleAuthentication();
   }
 }
 
+const update = (data) => {
+  content = {...content, ...data}
+  history.replace('/')
+}
+
+const auth = new Auth();
 ReactDOM.render(
-  <App />,
+  <BrowserRouter history={history}>
+  <Switch>
+        <Route exact path="/" render={(props) => <App content={content} auth={auth} {...props} />} />
+        <Route path="/admin" render={(props) => <Admin update={update} auth={auth} location={history} {...props} />} />
+        <Route path="/callback" render={(props) => {
+          handleAuthentication(props);
+          return <Callback {...props} /> 
+        }}/>
+  </Switch>
+  </BrowserRouter>,
   document.getElementById('root')
 );
