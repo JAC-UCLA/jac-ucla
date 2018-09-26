@@ -40,14 +40,6 @@ app.get('*', function (req, res) {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
-//test update function using dummy data
-let testData = {
-  "meetingroom" : "fek",
-  "meetingday" : "alsofek",
-  "meetingtime" : "please don't push this to production",
-  "about" : ["weebs", "jk i just appreaciate %d% %t% %r% japan", "line", "ye idek", "alsdkjf"]
-}
-
 //handles a post request from client
 //Tip : You can test this by editting the call to request in form.jsx
 app.post('/update', checkJwt, function(req, res){
