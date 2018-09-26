@@ -28,6 +28,7 @@ const checkJwt = jwt({
 });
 
 app.use(express.static(path.join(__dirname, 'build')));
+app.use(bodyParser.json());
 app.set('views', path.join(__dirname, '/views'))
 app.set('view engine', 'ejs')
 
@@ -50,18 +51,21 @@ let testData = {
 //handles a post request from client
 //Tip : You can test this by editting the call to request in form.jsx
 app.post('/update', checkJwt, function(req, res){
-// TODO : call the update function here (using testData)
+  update(req.body);
 
-// TODO : send a response with appropriate error or success messages.
-
+  res.send("OK");
 })
 
 //Expect data to be formatted like testData
 //handle cases of with missing or empty fields
-function update( data ) {
-//TODO : create update function that writes to content.json using data
-//Tip : use write-json-file (or your library of choice)
+function update(data) {
+  if(!data
+      || !data.hasOwnProperty("meetingroom") || !data.hasOwnProperty("meetingday") || !data.hasOwnProperty("meetingtime")
+      || !data.hasOwnProperty("about")) {
+    throw new Error("Missing a required property.");
+  }
 
+  writeJson.sync('content.json', data);
 }
 
 app.listen(process.env.PORT || 3000);
