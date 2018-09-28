@@ -29,22 +29,26 @@ class Form extends React.Component {
         this.setState({about: event.target.value});
     }
     
-    handleSubmit(event) {
+    async handleSubmit(event) {
         let accessToken = localStorage.getItem('access_token');
-        var options = { method: 'POST',
-        url: 'http://localhost:3000/update',
-        headers:{ authorization: 'Bearer ' + accessToken, "content-type" : "application/json" },
-                    };
-        //TODO : complete post request that sends location, time, etc. data from state
-        //Tips : 1. you can get state using this.state
-        //       2. documentation of request here https://www.npmjs.com/package/request#oauth-signing
-        //       3. you can test your success by printing the request on the server (server.js)
-        request(options, function (error, response, body) {
+        var options = {
+            method: 'POST',
+            url: 'http://localhost:3000/update',
+            json: true,
+            body: { "test" : "test"},
+            headers: { authorization: `Bearer ${accessToken}`},
+        }
+        // TODO : complete post request that sends location, time, etc. data from state
+        // Tips : 1. you can get state using this.state
+        //        2. documentation of request here https://www.npmjs.com/package/request#oauth-signing
+        //        3. you can test your success by printing the request on the server (server.js)
+        request(options, (error, response, body) => {
+            console.log(body)
             // TODO : handle success by redirecting to index or logging message for the user
             if (error) throw new Error(error);
             // TODO : log error for user
-                console.log(body)
-            });
+            console.log(body)
+        });
         event.preventDefault();
     }
 
@@ -54,7 +58,7 @@ class Form extends React.Component {
             flexDirection : "column",
             alignItems : "start",
             paddingTop : 10,
-            }
+        }
 
         return (
             <form onSubmit={this.handleSubmit}>
