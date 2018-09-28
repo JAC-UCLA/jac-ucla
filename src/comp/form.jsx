@@ -35,18 +35,12 @@ class Form extends React.Component {
             method: 'POST',
             url: 'http://localhost:3000/update',
             json: true,
-            body: { "test" : "test"},
+            body: this.state,
             headers: { authorization: `Bearer ${accessToken}`},
         }
-        // TODO : complete post request that sends location, time, etc. data from state
-        // Tips : 1. you can get state using this.state
-        //        2. documentation of request here https://www.npmjs.com/package/request#oauth-signing
-        //        3. you can test your success by printing the request on the server (server.js)
         request(options, (error, response, body) => {
-            console.log(body)
-            // TODO : handle success by redirecting to index or logging message for the user
             if (error) throw new Error(error);
-            // TODO : log error for user
+			else console.log("Update Successful.")
             console.log(body)
         });
         event.preventDefault();
