@@ -5,7 +5,9 @@ Hi friends,
 To start up react app, from the root directory run the following commands:
 
 > npm install
+
 > npm run dev 
+
 > npm start
 
 Run the second and third commands in separate tabs or using &&
