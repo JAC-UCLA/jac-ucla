@@ -17,9 +17,9 @@
     max-height: 350px;
 }
 @media (max-width: 760px) {
-  .footer-img {
-    max-height: auto;
-    max-width: 90%;
-    padding-top: 25px;
-  }
+    .footer-img {
+        max-height: auto;
+        max-width: 90%;
+        padding-top: 25px;
+    }
 }

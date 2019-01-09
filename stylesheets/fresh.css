@@ -10,7 +10,7 @@
     line-height: 27px;
     font-size: 16px;
     color: #4E4257;
-    background-image: url('../freshbg.png');
+    background-image: url('../images/freshbg.png');
     background-position: right bottom; /*Positioning*/
     background-repeat: no-repeat; /*Prevent showing multiple background images*/
 }

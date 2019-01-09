@@ -4,7 +4,7 @@
     padding-right: 50px;
     text-align: left; /* Used to align the kirigami logo to the left. */
 
-    background-image: url('../kirigami.svg');
+    background-image: url('../images/kirigami.svg');
     background-position: left top;
     background-repeat: no-repeat;
     background-size: 75%;
