@@ -5,7 +5,7 @@
     width: 100%;
     height: 100vh;
 
-    background-image: url('../images/jaciebg.png');
+    background-image: url('../images/jaciebg.svg');
     background-size: auto 95%;
     background-position: right bottom; /* Stuck to right. */
     background-repeat: no-repeat; /*Prevent showing multiple background images*/
