@@ -5,12 +5,16 @@
 }
 
 .meetings-title,
+.meetings-schedule-title,
+.meetings-screenings-title,
 .meetings-body{
     background: #FDFEF2;
     border: 2px solid #CACB69;
 }
 
-.meetings-title{
+.meetings-title,
+.meetings-schedule-title,
+.meetings-screenings-title{
     font-family: Raleway;
     font-weight: bold;
     font-size: 26px;
@@ -45,12 +49,6 @@ and (max-width: 824px) {
     margin: 3% auto;
 }
 
-.meetings-schedule-title{
-    margin: 1% auto;
-    font-size: 24px;
-    font-weight: bold;
-}
-
 .meetings-schedule-table{
     width: 100%;
 }
@@ -59,25 +57,9 @@ table, th, td{
     border: 1px solid black;
 }
 
-.meetings-screenings{
-    margin: auto;
-}
-
-.meetings-screenings-title{
-    margin: 1% auto;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.meetings-screenings::after{
-    content: "";
-    clear: both;
-    display: table;
-}
-
 .meetings-screening{
     display: inline-block;
-    margin: 20px;
+    margin: 10px 20px;
 }
 
 .meetings-screening-img{
