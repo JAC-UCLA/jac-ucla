@@ -24,13 +24,21 @@
 
 .meetings-body{
     font-family: Raleway;
-    font-size: 18px;
+    font-size: 20px;
     color: #AA507A;
     letter-spacing: 0px;
     line-height: 37px;
 
     padding: 0% 2%;
     padding-top: 2%;
+}
+
+@media only screen 
+and (max-width: 824px) {
+    .meetings-body {
+        font-size: 15px;
+        line-height: 25px;
+    }
 }
 
 .meetings-schedule{
