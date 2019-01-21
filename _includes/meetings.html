@@ -1,0 +1,58 @@
+<div class="meetings mainelement">
+    <div class="meetings-title">
+        Meetings
+    </div>
+
+    <div class="meetings-body">
+        <div class="meetings-details">
+            Meetings are currently on {{ site.jacday }} from {{ site.jactime }} in {{ site.jacroom }}. We also sometimes hold events on {{ site.weekendday }}.
+        </div>
+
+        <div class="meetings-schedule">
+            <div class="meetings-schedule-title">
+                {{ site.quarter }} Schedule
+            </div>
+
+            <table class="meetings-schedule-table">
+                <tr>
+                    <th>Week</th>
+                    <th>{{ site.jacday }}</th>
+                    <th>{{ site.weekendday }}</th>
+                </tr>
+
+                {% for week in site.schedule %}
+                <tr>
+                    <td>Week {{ forloop.index }}</td>
+
+                    {% if week.meeting %}
+                    <td>{{ week.meeting }}</td>
+                    {% else %}
+                    <td>---</td>
+                    {% endif %}
+
+                    {% if week.weekend %}
+                    <td>{{ week.weekend }}</td>
+                    {% else %}
+                    <td>---</td>
+                    {% endif %}
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+
+        <div class="meetings-screenings">
+            <div class="meetings-screenings-title">
+                {{ site.quarter }} Screenings
+            </div>
+
+            {% for screening in site.screenings %}
+            <a href="{{ screening.mal }}" target="_blank">
+                <figure class="meetings-screening">
+                    <img class="meetings-screening-img" src="{{ screening.image }}" alt="" />
+                    <figcaption class="meetings-screening-caption">{{ screening.title }}</figcaption>
+                </figure>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>

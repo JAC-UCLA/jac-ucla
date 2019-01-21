@@ -5,7 +5,7 @@
     <div class="about-body">
         {% assign about = site.jacabout | split: "%photos%" %}
         {% for part in about %}
-        {{ part | replace: "%day%", site.jacday | replace: "%time%", site.jactime | replace: "%room%", site.jacroom | markdownify }}
+        {{ part | markdownify }}
         {%     unless forloop.last %}
         <div id="about-carousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
