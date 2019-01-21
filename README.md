@@ -8,7 +8,7 @@ Committing changes to the master branch of the GitHub repository should automati
 
 To test locally, make sure you have [Jekyll](https://jekyllrb.com/) installed, run `jekyll serve`, and navigate to `localhost:4000` in your web browser.
 
-Basic site data can be found in `_config.yml`. About entries are written using [Markdown](https://en.wikipedia.org/wiki/Markdown).
+Basic site data can be found in `_config.yml`. About entries are written using [Markdown](https://en.wikipedia.org/wiki/Markdown). See the comments for more details.
 
 ## Workflow
 

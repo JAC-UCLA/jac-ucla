@@ -1,15 +1,14 @@
-# Join
+# === About JAC ===
 
-email: jacatucla@gmail.com
-emailform: https://docs.google.com/forms/d/e/1FAIpQLSf1vl_musx4Pi1SQvjWUu-VOvxFniHWhJgVfJtWyGCJ4x1XIA/viewform
-discord: https://discordapp.com/invite/eXnRJaY
-facebook: https://www.facebook.com/jacatucla
-
-# About
-
+# JAC meeting room.
 jacroom: Kinsey Pavilion 1220
+# JAC meeting time.
 jactime: 7-9PM
+# JAC meeting day.
 jacday: Thursdays
+# Information about JAC.
+# Written in markdown.
+# The line "%photos%" is replaced with the photo carousel.
 jacabout: |
  We're UCLA's official anime club! Welcome to our site! (ﾉ´ヮ´)ﾉ*:･ﾟ✧
 
@@ -22,6 +21,10 @@ jacabout: |
  UCLA's Japanese Animation Club is part of a larger network of collegiate anime clubs in California called "Cal Animage". The Cal-Animage network initially started so that different schools could work together to exchange manga/fansubbed tapes, since they were somewhat difficult to find back then.
 
  The club's original name was "Cal-Animage Eta", which means we're the 7th Cal-Animage chapter. Cal-Animage Alpha is in UC Berkeley. Cal-Animage Eta was founded over 25 years ago, making JAC one the oldest clubs at UCLA!
+# Photos for the carousel.
+# Each entry must contain the following:
+# - description: Description text underneath the image.
+# - path: Path to the image on the web server.
 jacphotos:
  - description: JAC's 2017 Maid Cafe
    path: /images/photos/photo2.jpg
@@ -34,10 +37,14 @@ jacphotos:
  - description: Anime Night at Feast
    path: /images/photos/photo5.jpg
 
-# Meetings
+# === JAC Meetings ===
 
+# Day for weekend events.
 weekendday: Saturdays
+# Current quarter.
 quarter: Winter
+# Schedule of events for the quarter.
+# Each entry in the list is a week and can have two entries, "meeting" and "weekend".
 schedule:
  - meeting: Special Screening
  - meeting: Screenings Voting
@@ -51,6 +58,11 @@ schedule:
    weekend: Sawtelle Trip
  - meeting: Special Screening
  - meeting: Officer Elections + Raffle
+# Current quarterly screenings.
+# Each entry must contain the following:
+# - title: Anime title.
+# - mal: MyAnimeList link.
+# - image: Cover image to display.
 screenings:
  - title: Kaguya Wants to be Confessed To
    mal: https://myanimelist.net/anime/37999/Kaguya-sama_wa_Kokurasetai__Tensai-tachi_no_Renai_Zunousen
@@ -59,18 +71,25 @@ screenings:
    mal: https://myanimelist.net/anime/37779/Yakusoku_no_Neverland
    image: https://cdn.myanimelist.net/images/anime/1125/96929l.jpg
 
-# Fresh Produce
+# === Fresh Produce ===
 
+# Fresh Produce meeting room.
 freshroom: Ackerman Jamba Juice Lounge
+# Fresh Produce meeting time.
 freshtime: 8:00-10:00PM
+# Fresh Produce meeting day.
 freshday: Wednesdays
+# Information about Fresh Produce.
+# Written in Markdown.
 freshabout: |
  Formerly an offshoot of UCLA's Japanese Animation Club, Fresh Productions (often known as "Fresh Produce") is a UCLA art club for artists of all levels! We offer workshops, drawing lessons, special art supplies, and more. Whether you're a traditional or digital artist, come join us to hang out, draw together, and make friends in a chill environment!
 
  Check out our [Facebook](https://www.facebook.com/groups/drawtheworld/) page for more info! You can also find us on Discord!
 
-# Kirigami
+# === Kirigami ===
 
+# Information about Kirigami.
+# Written in Markdown.
 kirigamiabout: |
  # JAC's Idol Group
 
@@ -80,6 +99,22 @@ kirigamiabout: |
 
  Check us out on [Facebook](https://www.facebook.com/KiRiGaMiDancers/)!
 
-# Midnight Sessions
+# === Midnight Sessions ===
 
+# Information about Midnight Sessions.
+# Written in Markdown.
 midnightabout: Love anime music? Interested in finding people to practice/arrange with? Stop by one of our weekly meetings for UCLA's one and only anime music club - [*The Midnight Sessions*](https://www.facebook.com/groups/344370402678778/).
+
+# === Join ===
+
+# Mailing list sign-up form.
+emailform: https://docs.google.com/forms/d/e/1FAIpQLSf1vl_musx4Pi1SQvjWUu-VOvxFniHWhJgVfJtWyGCJ4x1XIA/viewform
+# Discord invite link.
+discord: https://discordapp.com/invite/eXnRJaY
+# Facebook group.
+facebook: https://www.facebook.com/jacatucla
+
+# === Misc ===
+
+# JAC email address.
+email: jacatucla@gmail.com
