@@ -82,6 +82,7 @@ and (max-width: 824px) {
     left: 50%;
     bottom: 10px;
     transform: translate(-50%, 0);
+    margin-right: -50%;
 
     border-radius: 10px;
     padding-left: 10px;
