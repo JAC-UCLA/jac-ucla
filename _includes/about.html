@@ -10,9 +10,9 @@
         <div class="about-photos">
             {% for photo in site.jacphotos %}
             <!-- This bit of CSS is inline in order to use template variables for the number of photos. -->
-            <div style="animation: about-photos {{ site.jacphotos | size | times: 5 }}s infinite; animation-delay: {{ forloop.index0 | times: 5 }}s;">
-                <img src="{{ photo.path }}" alt="" />
-                <p>{{ photo.description }}</p>
+            <div class="about-photos-slide" style="animation: about-photos {{ site.jacphotos | size | times: 5 }}s infinite; animation-delay: {{ forloop.index0 | times: 5 }}s;">
+                <img class="about-photos-img" src="{{ photo.path }}" alt="" />
+                <span class="about-photos-caption">{{ photo.description }}</span>
             </div>
             {% endfor %}
         </div>
