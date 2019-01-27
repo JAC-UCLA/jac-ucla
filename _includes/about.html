@@ -7,37 +7,14 @@
         {% for part in about %}
         {{ part | markdownify }}
         {%     unless forloop.last %}
-        <div id="about-carousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                {% for photo in site.jacphotos %}
-                {%    if forloop.first %}
-                <li data-target="#about-carousel" data-slide-to="{{ forloop.index0 }}" class="active"></li>
-                {%    else %}
-                <li data-target="#about-carousel" data-slide-to="{{ forloop.index0 }}"></li>
-                {%    endif %}
-                {% endfor %}
-            </ol>
-            <div class="carousel-inner">
-                {% for photo in site.jacphotos %}
-                {%    if forloop.first %}
-                <div class="item active">
-                {%    else %}
-                <div class="item">
-                {%    endif %}
-                    <img class="carousel-img" src="{{ photo.path }}" alt="" />
-                    <p class="carousel-caption">{{ photo.description }}</p>
-                </div>
-                {% endfor %}
+        <div class="about-photos">
+            {% for photo in site.jacphotos %}
+            <!-- This bit of CSS is inline in order to use template variables for the number of photos. -->
+            <div style="animation: about-photos {{ site.jacphotos | size | times: 5 }}s infinite; animation-delay: {{ forloop.index0 | times: 5 }}s;">
+                <img src="{{ photo.path }}" alt="" />
+                <p>{{ photo.description }}</p>
             </div>
-
-            <a class="left carousel-control" href="#about-carousel" data-slide="prev">
-                <img class="left-icon" src="/images/left.svg" />
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#about-carousel" data-slide="next">
-                <img class="right-icon" src="/images/right.svg" />
-                <span class="sr-only">Next</span>
-            </a>
+            {% endfor %}
         </div>
         {%     endunless %}
         {% endfor %}

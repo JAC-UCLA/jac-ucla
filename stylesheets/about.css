@@ -52,65 +52,60 @@ and (max-width: 824px) {
     }
 }
 
-
-/* Bootstrap carousel customizations.  */
-.carousel-inner > .item > img {
-    margin: 0 auto;
-}
-.carousel {
-    width: 85%;
+.about-photos{
+    position: relative;
     margin: 4% auto;
+
     height: 400px;
+
+    overflow: hidden;
 }
-.carousel-control {
-    background:none!important;
+
+.about-photos div{
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+
+    height: 100%;
+
+    opacity: 0;
 }
-.left-icon, .right-icon {
-    position:absolute;
-    top:50%;
-    margin-top:-10px;
-    z-index:5;
-    display:inline-block;
-    width:30px;height:30px;
-    margin-top:-10px;
-    font-size:30px;
-}
-.left-icon {
-    left:25%;
-    margin-left:-10px;
-}
-.right-icon {
-    right:25%;
-    margin-right:-10px;
-}
-.carousel-img {
-    max-height: 400px;
+
+.about-photos img{
+    height: 100%;
     border-radius: 10px;
 }
-.carousel-caption {
-    bottom: -40px!important;
-}
-.carousel-indicators {
-    bottom: -50px!important;
+
+.about-photos p{
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+
+    border-radius: 10px;
+
+    display: table;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    background-color: white;
 }
 
 @media only screen 
 and (max-width: 824px) {
-    .carousel {
+    .about-photos {
         height: 200px;
         margin-bottom: 40px;
     }
-    .carousel-img {
-        max-height: 200px;
-    }
-    .carousel-indicators {
-        bottom: -40px!important;
-    }
+}
 
-    .left-icon {
-        left: -68%;
+@keyframes about-photos{
+    25%{
+        opacity: 1;
     }
-    .right-icon {
-        right: -68%;
+    40%{
+        opacity: 0;
     }
 }

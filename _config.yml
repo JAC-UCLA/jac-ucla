@@ -8,7 +8,7 @@ jactime: 7-9PM
 jacday: Thursdays
 # Information about JAC.
 # Written in markdown.
-# The line "%photos%" is replaced with the photo carousel.
+# The line "%photos%" is replaced with the photo slideshow.
 jacabout: |
  We're UCLA's official anime club! Welcome to our site! (ﾉ´ヮ´)ﾉ*:･ﾟ✧
 
@@ -21,7 +21,7 @@ jacabout: |
  UCLA's Japanese Animation Club is part of a larger network of collegiate anime clubs in California called "Cal Animage". The Cal-Animage network initially started so that different schools could work together to exchange manga/fansubbed tapes, since they were somewhat difficult to find back then.
 
  The club's original name was "Cal-Animage Eta", which means we're the 7th Cal-Animage chapter. Cal-Animage Alpha is in UC Berkeley. Cal-Animage Eta was founded over 25 years ago, making JAC one the oldest clubs at UCLA!
-# Photos for the carousel.
+# Photos for the slideshow.
 # Each entry must contain the following:
 # - description: Description text underneath the image.
 # - path: Path to the image on the web server.
