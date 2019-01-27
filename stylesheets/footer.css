@@ -13,12 +13,22 @@
     width: 100%;
     margin-bottom: -50px;
 }
-.footer-img {
+#footer-img {
+    display: none;
+}
+#footer-img + .footer-img-label {
+    content: url('/images/design18-min.png');
+}
+#footer-img:checked + .footer-img-label {
+    content: url('/images/pusheen.png');
+}
+.footer-img-label {
+    display: inline-block;
     max-height: 350px;
 }
 @media (max-width: 760px) {
-    .footer-img {
-        max-height: auto;
+    .footer-img-label {
+        max-height: none;
         max-width: 90%;
         padding-top: 25px;
     }
