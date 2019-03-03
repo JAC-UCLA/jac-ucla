@@ -10,7 +10,7 @@ jacday: Thursdays
 # Written in markdown.
 # The line "%photos%" is replaced with the photo slideshow.
 jacabout: |
- We're UCLA's official anime club! Welcome to our site! (ﾉ´ヮ´)ﾉ*:･ﾟ✧
+ We're the Japanese Animation Club at UCLA! Welcome to our site! (ﾉ´ヮ´)ﾉ*:･ﾟ✧
 
  We’re a club dedicated to facilitating both on and off-campus gatherings for the appreciation of Japanese anime and culture! We welcome all anime fans to join us at our club-hosted events and local conventions, to meet with others who share the same passion for art and entertainment.
 
@@ -18,7 +18,7 @@ jacabout: |
 
  We hold weekly club meetings. Please join us for screenings, awesome events, raffles, karaoke, cosplay, and much, much more!
 
- UCLA's Japanese Animation Club is part of a larger network of collegiate anime clubs in California called "Cal Animage". The Cal-Animage network initially started so that different schools could work together to exchange manga/fansubbed tapes, since they were somewhat difficult to find back then.
+ JAC is part of a larger network of collegiate anime clubs in California called "Cal Animage". The Cal-Animage network initially started so that different schools could work together to exchange manga/fansubbed tapes, since they were somewhat difficult to find back then.
 
  The club's original name was "Cal-Animage Eta", which means we're the 7th Cal-Animage chapter. Cal-Animage Alpha is in UC Berkeley. Cal-Animage Eta was founded over 25 years ago, making JAC one the oldest clubs at UCLA!
 # Photos for the slideshow.
@@ -32,7 +32,7 @@ jacphotos:
    path: /images/photos/photo3.jpg
  - description: JAC at Anime Expo 2017
    path: /images/photos/photo1.jpg
- - description: JAC at UCLA Geek Week
+ - description: JAC at Geek Week
    path: /images/photos/photo4.jpg
  - description: Anime Night at Feast
    path: /images/photos/photo5.jpg
@@ -82,7 +82,7 @@ freshday: Wednesdays
 # Information about Fresh Produce.
 # Written in Markdown.
 freshabout: |
- Formerly an offshoot of UCLA's Japanese Animation Club, Fresh Productions (often known as "Fresh Produce") is a UCLA art club for artists of all levels! We offer workshops, drawing lessons, special art supplies, and more. Whether you're a traditional or digital artist, come join us to hang out, draw together, and make friends in a chill environment!
+ Formerly an offshoot of the Japanese Animation Club, Fresh Productions (often known as "Fresh Produce") is a club for artists of all levels! We offer workshops, drawing lessons, special art supplies, and more. Whether you're a traditional or digital artist, come join us to hang out, draw together, and make friends in a chill environment!
 
  Check out our [Facebook](https://www.facebook.com/fpaucla/){:target="_blank"} page for more info! You can also find us on Discord!
 
@@ -103,7 +103,7 @@ kirigamiabout: |
 
 # Information about Midnight Sessions.
 # Written in Markdown.
-midnightabout: Love anime music? Interested in finding people to practice/arrange with? Stop by one of our weekly meetings for UCLA's one and only anime music club - [*The Midnight Sessions*](https://www.facebook.com/groups/344370402678778/){:target="_blank"}.
+midnightabout: Love anime music? Interested in finding people to practice/arrange with? Stop by one of the weekly meetings for our one and only anime music club - [*The Midnight Sessions*](https://www.facebook.com/groups/344370402678778/){:target="_blank"}.
 
 # === Join ===
 
