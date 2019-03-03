@@ -17,7 +17,7 @@
     display: none;
 }
 #footer-img + .footer-img-label {
-    content: url('/images/design18-min.png');
+    content: url('/images/design18.png');
 }
 #footer-img:checked + .footer-img-label {
     content: url('/images/pusheen.png');
