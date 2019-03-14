@@ -121,5 +121,7 @@ email: jacatucla@gmail.com
 
 # === Jekyll Configuration ===
 
+exclude: ['CNAME', 'README.md']
+
 sass:
     style: compressed
