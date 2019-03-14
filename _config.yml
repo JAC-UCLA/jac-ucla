@@ -118,3 +118,8 @@ facebook: https://www.facebook.com/jacatucla
 
 # JAC email address.
 email: jacatucla@gmail.com
+
+# === Jekyll Configuration ===
+
+sass:
+    style: compressed
