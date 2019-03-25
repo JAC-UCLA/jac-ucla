@@ -1,6 +1,6 @@
 # jac-ucla
 
-https://jacatucla.moe/
+https://jac.moe/
 
 ## Instructions
 
