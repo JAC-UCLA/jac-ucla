@@ -1,7 +1,7 @@
 # === About JAC ===
 
 # JAC meeting room.
-jacroom: Kinsey Pavilion 1220
+jacroom: Perloff 1102
 # JAC meeting time.
 jactime: 7-9PM
 # JAC meeting day.
@@ -42,22 +42,13 @@ jacphotos:
 # Day for weekend events.
 weekendday: Saturdays
 # Current quarter.
-quarter: Winter
+quarter: Spring
 # Schedule of events for the quarter.
 # Each entry in the list is a week and can have two entries, "meeting" and "weekend".
 schedule:
- - meeting: Special Screening
+ - meeting: OP/ED Night
  - meeting: Screenings Voting
-   weekend: Winter Formal
- - meeting: Makeshift Cosplay
    weekend: Little Tokyo Trip
- - meeting: Anime Charades
- - meeting: Auction
- - meeting: Special Screening
- - meeting: Karaoke Night
-   weekend: Sawtelle Trip
- - meeting: Special Screening
- - meeting: Officer Elections + Raffle
 # Current quarterly screenings.
 # Each entry must contain the following:
 # - title: Anime title.
