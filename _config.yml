@@ -49,6 +49,16 @@ schedule:
  - meeting: OP/ED Night
  - meeting: Screenings Voting
    weekend: Little Tokyo Trip
+ - meeting: Game Night
+ - meeting: Special Screening
+   weekend: Sawtelle Trip
+ - meeting: Pictionary Night
+ - meeting: Test of Courage Night
+ - meeting: Karaoke Night
+   weekend: Maid Cafe
+ - meeting: Special Screening
+   weekend: Beach Episode
+ - meeting: Raffle
 # Current quarterly screenings.
 # Each entry must contain the following:
 # - title: Anime title.
