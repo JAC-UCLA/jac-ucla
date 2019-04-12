@@ -65,12 +65,12 @@ schedule:
 # - mal: MyAnimeList link.
 # - image: Cover image to display.
 screenings:
- - title: Kaguya Wants to be Confessed To
-   mal: https://myanimelist.net/anime/37999/Kaguya-sama_wa_Kokurasetai__Tensai-tachi_no_Renai_Zunousen
-   image: https://cdn.myanimelist.net/images/anime/1291/97023l.jpg
- - title: The Promised Neverland
-   mal: https://myanimelist.net/anime/37779/Yakusoku_no_Neverland
-   image: https://cdn.myanimelist.net/images/anime/1125/96929l.jpg
+ - title: Fruits Basket (2019)
+   mal: https://myanimelist.net/anime/38680/Fruits_Basket_2019
+   image: https://cdn.myanimelist.net/images/anime/1447/99827.jpg
+ - title: Kimetsu no Yaiba
+   mal: https://myanimelist.net/anime/38000/Kimetsu_no_Yaiba
+   image: https://cdn.myanimelist.net/images/anime/1286/99889.jpg
 
 # === Fresh Produce ===
 
