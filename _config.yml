@@ -26,15 +26,15 @@ jacabout: |
 # - description: Description text underneath the image.
 # - path: Path to the image on the web server.
 jacphotos:
- - description: JAC's 2017 Maid Cafe
-   path: /images/photos/photo2.jpg
- - description: JAC's 2017 Maid Cafe
-   path: /images/photos/photo3.jpg
- - description: JAC at Anime Expo 2017
+ - description: JAC's 2018 Beach Episode
    path: /images/photos/photo1.jpg
- - description: JAC at Geek Week
+ - description: JAC's 2018 Maid and Butler Cafe
+   path: /images/photos/photo2.jpg
+ - description: JAC's 2018 Winter Formal
+   path: /images/photos/photo3.jpg
+ - description: JAC's 2019 Winter Formal
    path: /images/photos/photo4.jpg
- - description: Anime Night at Feast
+ - description: JAC at Anime Expo 2018
    path: /images/photos/photo5.jpg
 
 # === JAC Meetings ===
@@ -55,7 +55,7 @@ schedule:
  - meeting: Pictionary Night
  - meeting: Test of Courage Night
  - meeting: Karaoke Night
-   weekend: Maid Cafe
+   weekend: Maid and Butler Cafe
  - meeting: Special Screening
    weekend: Beach Episode
  - meeting: Raffle
