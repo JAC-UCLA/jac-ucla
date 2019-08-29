@@ -1,7 +1,7 @@
 # === About JAC ===
 
 # JAC meeting room.
-jacroom: Perloff 1102
+jacroom: Kinsey Pavillion 1240
 # JAC meeting time.
 jactime: 7-9PM
 # JAC meeting day.
@@ -42,35 +42,16 @@ jacphotos:
 # Day for weekend events.
 weekendday: Saturdays
 # Current quarter.
-quarter: Spring
+quarter: Fall
 # Schedule of events for the quarter.
 # Each entry in the list is a week and can have two entries, "meeting" and "weekend".
 schedule:
- - meeting: OP/ED Night
- - meeting: Screenings Voting
-   weekend: Little Tokyo Trip
- - meeting: Game Night
- - meeting: Special Screening
-   weekend: Sawtelle Trip
- - meeting: Pictionary Night
- - meeting: Test of Courage Night
- - meeting: Karaoke Night
-   weekend: Maid and Butler Cafe
- - meeting: Special Screening
-   weekend: Beach Episode
- - meeting: Raffle
 # Current quarterly screenings.
 # Each entry must contain the following:
 # - title: Anime title.
 # - mal: MyAnimeList link.
 # - image: Cover image to display.
 screenings:
- - title: Fruits Basket (2019)
-   mal: https://myanimelist.net/anime/38680/Fruits_Basket_2019
-   image: https://cdn.myanimelist.net/images/anime/1447/99827.jpg
- - title: Kimetsu no Yaiba
-   mal: https://myanimelist.net/anime/38000/Kimetsu_no_Yaiba
-   image: https://cdn.myanimelist.net/images/anime/1286/99889.jpg
 
 # === Fresh Produce ===
 
