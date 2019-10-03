@@ -5,7 +5,7 @@ jacroom: Kinsey Pavillion 1240
 # JAC meeting time.
 jactime: 7-9PM
 # JAC meeting day.
-jacday: Thursdays
+jacday: Thursday
 # Information about JAC.
 # Written in markdown.
 # The line "%photos%" is replaced with the photo slideshow.
@@ -26,26 +26,40 @@ jacabout: |
 # - description: Description text underneath the image.
 # - path: Path to the image on the web server.
 jacphotos:
- - description: JAC's 2018 Beach Episode
+ - description: Beach Episode 2018
    path: /images/photos/photo1.jpg
- - description: JAC's 2018 Maid and Butler Cafe
+ - description: Maid and Butler Cafe 2019
    path: /images/photos/photo2.jpg
- - description: JAC's 2018 Winter Formal
+ - description: Winter Formal 2018
    path: /images/photos/photo3.jpg
- - description: JAC's 2019 Winter Formal
+ - description: Winter Formal 2019
    path: /images/photos/photo4.jpg
- - description: JAC at Anime Expo 2018
+ - description: JAC at Anime Expo 2019
    path: /images/photos/photo5.jpg
 
 # === JAC Meetings ===
 
 # Day for weekend events.
-weekendday: Saturdays
+weekendday: Saturday
 # Current quarter.
 quarter: Fall
 # Schedule of events for the quarter.
 # Each entry in the list is a week and can have two entries, "meeting" and "weekend".
 schedule:
+    - meeting: Welcome Activities and Raffle
+      weekend: Welcome Picnic
+    - meeting: Screenings
+      weekend: Beach Episode
+    - meeting: Game Night
+      weekend: Dessert Night
+    - meeting: Trivia
+      weekend: Sawtelle Trip
+    - meeting: Halloween Special (TBA)
+    - meeting: Screenings
+      weekend: Board Game Night
+    - meeting: Karaoke Night
+    - meeting: Auction
+    - meeting: Thanksgiving Break (no meeting)
 # Current quarterly screenings.
 # Each entry must contain the following:
 # - title: Anime title.
