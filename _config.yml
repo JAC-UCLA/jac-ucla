@@ -66,6 +66,12 @@ schedule:
 # - mal: MyAnimeList link.
 # - image: Cover image to display.
 screenings:
+    - title: Babylon
+      mal: https://myanimelist.net/anime/37525/Babylon
+      image: https://cdn.myanimelist.net/images/anime/1942/102707.jpg
+    - title: Hoshiai no Sora
+      mal: https://myanimelist.net/anime/37972/Hoshiai_no_Sora
+      image: https://cdn.myanimelist.net/images/anime/1807/103081.jpg
 
 # === Fresh Produce ===
 
