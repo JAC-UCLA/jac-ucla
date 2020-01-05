@@ -1,7 +1,7 @@
 # === About JAC ===
 
 # JAC meeting room.
-jacroom: Kinsey Pavillion 1240
+jacroom: Kinsey Pavillion 1200B
 # JAC meeting time.
 jactime: 7-9PM
 # JAC meeting day.
@@ -42,36 +42,16 @@ jacphotos:
 # Day for weekend events.
 weekendday: Saturday
 # Current quarter.
-quarter: Fall
+quarter: Winter
 # Schedule of events for the quarter.
 # Each entry in the list is a week and can have two entries, "meeting" and "weekend".
 schedule:
-    - meeting: Welcome Activities and Raffle
-      weekend: Welcome Picnic
-    - meeting: Screenings
-      weekend: Beach Episode
-    - meeting: Game Night
-      weekend: Dessert Night
-    - meeting: Trivia
-      weekend: Sawtelle Trip
-    - meeting: Halloween Special (Ring)
-    - meeting: Screenings
-      weekend: Beach Day
-    - meeting: Karaoke Night
-    - meeting: Auction
-    - meeting: Thanksgiving Break (no meeting)
 # Current quarterly screenings.
 # Each entry must contain the following:
 # - title: Anime title.
 # - mal: MyAnimeList link.
 # - image: Cover image to display.
 screenings:
-    - title: Babylon
-      mal: https://myanimelist.net/anime/37525/Babylon
-      image: https://cdn.myanimelist.net/images/anime/1942/102707.jpg
-    - title: Hoshiai no Sora
-      mal: https://myanimelist.net/anime/37972/Hoshiai_no_Sora
-      image: https://cdn.myanimelist.net/images/anime/1807/103081.jpg
 
 # === Fresh Produce ===
 
