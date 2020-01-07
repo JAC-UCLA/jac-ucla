@@ -1,7 +1,11 @@
 # === About JAC ===
 
 # JAC meeting room.
+<<<<<<< HEAD
 jacroom: Kinsey Pavillion 1200
+=======
+jacroom: Kinsey Pavillion 1200B
+>>>>>>> 088a2d3e98c9619d68241e9b2f8848480d5dc150
 # JAC meeting time.
 jactime: 7-9PM
 # JAC meeting day.
@@ -46,8 +50,11 @@ quarter: Winter
 # Schedule of events for the quarter.
 # Each entry in the list is a week and can have two entries, "meeting" and "weekend".
 schedule:
+<<<<<<< HEAD
 #    - meeting: Welcome Activities and Raffle
 #      weekend: Welcome Picnic
+=======
+>>>>>>> 088a2d3e98c9619d68241e9b2f8848480d5dc150
 # Current quarterly screenings.
 # Each entry must contain the following:
 # - title: Anime title.
