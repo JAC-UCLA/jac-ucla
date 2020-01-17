@@ -66,7 +66,7 @@ schedule:
 # - mal: MyAnimeList link.
 # - image: Cover image to display.
 screenings:
- - title: ID: Invaded
+ - title: "ID: Invaded"
    mal: https://myanimelist.net/anime/40046/ID_Invaded
    image: https://cdn.myanimelist.net/images/anime/1954/104672l.jpg
  - title: Toilet-Bound Hanako-kun
