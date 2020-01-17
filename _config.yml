@@ -66,6 +66,12 @@ schedule:
 # - mal: MyAnimeList link.
 # - image: Cover image to display.
 screenings:
+ - title: ID: Invaded
+   mal: https://myanimelist.net/anime/40046/ID_Invaded
+   image: https://cdn.myanimelist.net/images/anime/1954/104672l.jpg
+ - title: Toilet-Bound Hanako-kun
+   mal: https://myanimelist.net/manga/105084/Jibaku_Shounen_Hanako-kun
+   image: https://cdn.myanimelist.net/images/manga/3/192551l.jpg
 
 # === Fresh Produce ===
 
