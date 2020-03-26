@@ -1,11 +1,11 @@
 # === About JAC ===
 
 # JAC meeting room.
-jacroom: JAC Discord Server
+jacroom: The JAC Discord Server
 # JAC meeting day.
-jacday: Day TBA
+jacday: (Day TBA)
 # JAC meeting time.
-jactime: Time TBA
+jactime: (Time TBA)
 # Information about JAC.
 # Written in markdown.
 # The line "%photos%" is replaced with the photo slideshow.
@@ -42,14 +42,12 @@ jacphotos:
 # === JAC Meetings ===
 
 # Day for weekend events.
-weekendday: Saturday
+#weekendday: Saturday
 # Current quarter.
-quarter: Winter
+quarter: Spring
 # Schedule of events for the quarter.
 # Each entry in the list is a week and can have two entries, "meeting" and "weekend".
 schedule:
-#    - meeting: Welcome Activities and Raffle
-#      weekend: Welcome Picnic
  - meeting: TBA
 # Current quarterly screenings.
 # Each entry must contain the following:
@@ -61,11 +59,11 @@ screenings:
 # === Fresh Produce ===
 
 # Fresh Produce meeting room.
-freshroom: Ackerman Jamba Juice Lounge
-# Fresh Produce meeting time.
-freshtime: 8:00-10:00PM
+freshroom: Location TBA
 # Fresh Produce meeting day.
-freshday: Wednesdays
+freshday: Day TBA
+# Fresh Produce meeting time.
+freshtime: Time TBA
 # Information about Fresh Produce.
 # Written in Markdown.
 freshabout: |
