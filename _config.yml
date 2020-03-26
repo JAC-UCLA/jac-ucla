@@ -1,15 +1,17 @@
 # === About JAC ===
 
 # JAC meeting room.
-jacroom: Kinsey Pavillion 1200B
-# JAC meeting time.
-jactime: 7-9PM
+jacroom: JAC Discord Server
 # JAC meeting day.
-jacday: Thursday
+jacday: Day TBA
+# JAC meeting time.
+jactime: Time TBA
 # Information about JAC.
 # Written in markdown.
 # The line "%photos%" is replaced with the photo slideshow.
 jacabout: |
+ **NOTICE: Due to the COVID-19 outbreak, there will be no regular on-campus meetings. Instead, we will be holding screenings and events online on our Discord server. Check back later for more details on when these online meetings will take place.**
+
  We're the Japanese Animation Club at UCLA! Welcome to our site! (ﾉ´ヮ´)ﾉ*:･ﾟ✧
 
  We’re a club dedicated to facilitating both on and off-campus gatherings for the appreciation of Japanese anime and culture! We welcome all anime fans to join us at our club-hosted events and local conventions, to meet with others who share the same passion for art and entertainment.
@@ -48,30 +50,13 @@ quarter: Winter
 schedule:
 #    - meeting: Welcome Activities and Raffle
 #      weekend: Welcome Picnic
- - meeting: Special Screening
- - meeting: Screenings
-   weekend: Winter Formal
- - meeting: Makeshift Cosplay
-   weekend: Little Tokyo Trip
- - meeting: Pictionary
- - meeting: Auction
- - meeting: Valentine's Screening
- - meeting: Karaoke Night
-   weekend: Sawtelle Trip
- - meeting: Screenings
- - meeting: Officer Elections and Raffle
+ - meeting: TBA
 # Current quarterly screenings.
 # Each entry must contain the following:
 # - title: Anime title.
 # - mal: MyAnimeList link.
 # - image: Cover image to display.
 screenings:
- - title: "ID: Invaded"
-   mal: https://myanimelist.net/anime/40046/ID_Invaded
-   image: https://cdn.myanimelist.net/images/anime/1954/104672l.jpg
- - title: Toilet-Bound Hanako-kun
-   mal: https://myanimelist.net/manga/105084/Jibaku_Shounen_Hanako-kun
-   image: https://cdn.myanimelist.net/images/manga/3/192551l.jpg
 
 # === Fresh Produce ===
 
