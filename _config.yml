@@ -3,9 +3,9 @@
 # JAC meeting room.
 jacroom: The JAC Discord Server
 # JAC meeting day.
-jacday: (Day TBA)
+jacday: Thursday
 # JAC meeting time.
-jactime: (Time TBA)
+jactime: 7-9PM
 # Information about JAC.
 # Written in markdown.
 # The line "%photos%" is replaced with the photo slideshow.
@@ -41,7 +41,7 @@ jacphotos:
 
 # === JAC Meetings ===
 
-# Day for weekend events.
+# Day for weekend events. Comment out if none this quarter.
 #weekendday: Saturday
 # Current quarter.
 quarter: Spring
