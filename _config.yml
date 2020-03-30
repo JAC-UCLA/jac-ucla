@@ -48,7 +48,15 @@ quarter: Spring
 # Schedule of events for the quarter.
 # Each entry in the list is a week and can have two entries, "meeting" and "weekend".
 schedule:
- - meeting: TBA
+ - meeting: Screenings
+ - meeting: Screenings + Voting
+ - meeting: "The Price is Right: Anime Edition"
+ - meeting: OP/ED Night
+ - meeting: Jackbox Night
+ - meeting: Mothers' Day Special Screening
+ - meeting: Karaoke Night
+ - meeting: Game Night
+ - meeting: Pictionary
 # Current quarterly screenings.
 # Each entry must contain the following:
 # - title: Anime title.
