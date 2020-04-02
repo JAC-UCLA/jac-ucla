@@ -67,14 +67,16 @@ screenings:
 # === Fresh Produce ===
 
 # Fresh Produce meeting room.
-freshroom: Location TBA
+freshroom: Ackerman Jamba Juice Lounge
 # Fresh Produce meeting day.
-freshday: Day TBA
+freshday: Wednesdays
 # Fresh Produce meeting time.
-freshtime: Time TBA
+freshtime: 8:00-10:00PM
 # Information about Fresh Produce.
 # Written in Markdown.
 freshabout: |
+ **NOTICE: Due to the COVID-19 outbreak, Fresh Produce meetings have been cancelled until further notice.**
+
  Formerly an offshoot of the Japanese Animation Club, Fresh Productions (often known as "Fresh Produce") is a club for artists of all levels! We offer workshops, drawing lessons, special art supplies, and more. Whether you're a traditional or digital artist, come join us to hang out, draw together, and make friends in a chill environment!
 
  Check out our [Facebook](https://www.facebook.com/fpaucla/){:target="_blank"} page for more info! You can also find us on Discord!
