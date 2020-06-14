@@ -1,40 +1,34 @@
 <div class="join mainelement">
     <img class="join-banner" src="/images/join.png" alt="" />
     <div class="join-container">
-        <div class="discord join-link" >
-            <a target="_blank" href="/discord">
-                <span class="divLink"></span>
-            </a>
-            <h1>can't wait to hang out?</h1>
-            <img class="join-icon" src="/images/discord.svg" alt="" />
-            <br />
-            Join Our Discord!
-            <br />
-            <div class="discord-sub">
+        {% for button in site.join %}
+
+        {% assign remainder = forloop.index | modulo: 2 %}
+        {% if remainder == 0 %}
+        {%     assign class = "join-even" %}
+        {% else %}
+        {%     assign class = "join-odd" %}
+        {% endif %}
+
+        <div class="join-link {{ class }}">
+            <div class="join-link-contents">
+                <a target="_blank" href="{{ button.link }}">
+                    <span class="divLink"></span>
+                </a>
+                <h1>{{ button.toptext }}</h1>
+                <img class="join-icon" src="{{ button.icon }}" alt="" />
                 <br />
-                (You must be logged in with your UCLA email to apply.)
+                {{ button.bottomtext }}
+                <br />
+                {% if button.subtext %}
+                <div class="join-sub">
+                    <br />
+                    {{ button.subtext }}
+                </div>
+                {% endif %}
             </div>
         </div>
-
-        <div class="facebook join-link">
-            <a target="_blank" href="/fb">
-                <span class="divLink"></span>
-            </a>
-            <h1>Follow Us On</h1>
-            <img class="join-icon" src="/images/facebook.svg" alt="" />
-            <br />
-            For the latest updates on club events!
-        </div>
-
-        <div class="mail join-link">
-            <a target="_blank" href="/email">
-                <span class="divLink"></span>
-            </a>
-            <h1>Join Our Mailing List</h1>
-            <img class="join-icon" src="/images/mail.png" alt="" />
-            <br />
-            For Weekly Announcements
-        </div>
+        {% endfor %}
     </div>
 
     <div class="contact-us">

@@ -1,11 +1,10 @@
-
-.join{
+.join {
     margin-top: 4%;
     margin-bottom: 0%;
     width: 99%;
 }
 
-.join-container{
+.join-container {
     width: 100%;
     display: flex;
     padding: 1% 0 1%;
@@ -14,7 +13,7 @@
     position: relative;
 }
 
-.join-banner{
+.join-banner {
     z-index: 1;
     margin-top: -60px;
 
@@ -22,86 +21,75 @@
     height: auto;
 }
 
-.join-link{
-    /* Rectangle: */
+.join-link {
     position: relative;
-    word-wrap: break-word;
     width: 26.5%;
-    text-transform: uppercase;
     padding: 1% 3% 2%;
     margin: .2% .2%;
+
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+
+    /* Center contents vertically */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Not supported on mobile. */
-.join-link:hover{
+.join-link:hover {
     transform: scale(1.01); 
 }
 
-.divLink{
-    position:absolute; 
-    width:100%;
-    height:100%;
-    top:0;
+.join-link-contents {
+    font-family: Raleway;
+    font-size: 24px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+.join-link-contents h1 {
+    font-size: 24px;
+}
+
+.join-odd {
+    background: #B1BE4E;
+    color: #FFFFFF;
+}
+
+.join-even{
+    background: #FFFFFF;
+    color: #B1BE4E;
+}
+
+.join-odd h1 {
+    color: #FFFFFF;
+}
+
+.join-even h1 {
+    color: #B1BE4E;
+}
+
+.join-icon {
+    padding: 3%;
+}
+
+.join-sub {
+    font-size: 16px;
+}
+
+.divLink {
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    top: 0;
     left: 0;
     z-index: 1;
 }
 
-.facebook{
-    background: #FFFFFF;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
-    font-family: Raleway;
-    font-size: 24px;
-    color: #B1BE4E;
-    letter-spacing: 2px;
-}
-
-.facebook h1{
-    padding-top: 5%;
-    font-family: Raleway;
-    font-size: 24px;
-    color: #B1BE4E;
-    letter-spacing: 3px;
-}
-
-.facebook .join-icon{
-    margin: 15px;
-}
-
-.mail .join-icon{
-    margin-bottom: 15px;
-}
-
-.mail,
-.discord {
-    /* Background: */
-    background: #B1BE4E;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
-    /* FOR WEEKLY UPDOOTS: */
-    font-family: Raleway;
-    font-size: 24px;
-    color: #FFFFFF;
-    letter-spacing: 3px;
-}
-
-.mail h1,
-.discord h1{
-    /*Join*/
-    font-family: Raleway;
-    font-size: 24px;
-    color: #FFFFFF;
-    letter-spacing: 3px;
-}
-
-.discord-sub {
-    font-family: Raleway;
-    font-size: 16px;
-    color: #FFFFFF;
-    letter-spacing: 3px;
-}
-
 .contact-us {
     font-family: Raleway;
-    font-size: 20px;
+    font-size: 18px;
     color: #000000;
     padding: 0 0 1%;
 }
