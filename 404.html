@@ -1,0 +1,23 @@
+---
+# Empty front matter
+---
+<!doctype html>
+<html>
+  <head>
+    <script type="text/javascript">
+        {% for social in site.join %}
+        {% if forloop.index > 1 %}
+        else
+        {% endif %}
+        if(window.location.pathname == "{{ social.linkpath }}") {
+            window.location.href = '{{ social.link }}';
+        }
+        {% endfor %}
+        else {
+            window.location.href = '/';
+        }
+    </script>
+  </head>
+  <body>
+  </body>
+</html>

@@ -124,22 +124,18 @@ join:
    toptext: Can't wait to hang out?
    bottomtext: Join our Discord!
    subtext: (You must be logged in with your UCLA email to apply.)
-   link: /discord
+   linkpath: /discord
+   link: https://docs.google.com/forms/d/e/1FAIpQLSf3WCJ0h-bB778lLf-FKYtnomv61Lxp5fk6N3lxRjOfgHrP9w/viewform
  - icon: /images/facebook.svg
    toptext: Follow Us On
    bottomtext: For the latest updates on club events!
-   link: /facebook
+   linkpath: /facebook
+   link: https://www.facebook.com/jacatucla
  - icon: /images/mail.png
    toptext: Join Our Mailing List
    bottomtext: For Weekly Announcements
-   link: /email
-
-# Mailing list link.
-emailform: https://docs.google.com/forms/d/e/1FAIpQLSf1vl_musx4Pi1SQvjWUu-VOvxFniHWhJgVfJtWyGCJ4x1XIA/viewform
-# Discord link.
-discord: https://docs.google.com/forms/d/e/1FAIpQLSf3WCJ0h-bB778lLf-FKYtnomv61Lxp5fk6N3lxRjOfgHrP9w/viewform
-# Facebook group link.
-facebook: https://www.facebook.com/jacatucla
+   linkpath: /email
+   link: https://docs.google.com/forms/d/e/1FAIpQLSf1vl_musx4Pi1SQvjWUu-VOvxFniHWhJgVfJtWyGCJ4x1XIA/viewform
 
 # === Misc ===
 
