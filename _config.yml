@@ -116,7 +116,8 @@ kirigamiabout: |
 # - icon: Button icon.
 # - toptext: Text above the icon.
 # - bottomtext: Text below the icon.
-# - link: Link the button should direct to.
+# - linkpath: URL path that the social link should be located at.
+# - link: Actual social link to direct users to.
 # Optional fields:
 # - subtext: Smaller sub-text to show at the very bottom.
 join:
