@@ -44,32 +44,32 @@ jacphotos:
 # Day for weekend events. Comment out if none this quarter.
 #weekendday: Saturday
 # Current quarter.
-quarter: Spring
+quarter: Summer
 # Schedule of events for the quarter.
 # Each entry in the list is a week and can have two entries, "meeting" and "weekend".
 schedule:
  - meeting: Screenings
  - meeting: Screenings + Voting
- - meeting: "The Price is Right: Anime Edition"
- - meeting: OP/ED Night
- - meeting: Jackbox Night
- - meeting: Mothers' Day Special Screening
- - meeting: Karaoke Night
- - meeting: Game Night
- - meeting: Pictionary
+ - meeting: Screenings
+ - meeting: Screenings
+ - meeting: Screenings
+ - meeting: Screenings
+ - meeting: Screenings
+ - meeting: Screenings
+ - meeting: Screenings
 # Current quarterly screenings.
 # Each entry must contain the following:
 # - title: Anime title.
 # - mal: MyAnimeList link.
 # - image: Cover image to display.
 screenings:
- - title: "Tower of God"
-   mal: https://myanimelist.net/anime/40221/Kami_no_Tou
-   image: https://cdn.myanimelist.net/images/anime/1702/106229l.jpg
- - title: "My Next Life as a Villainess: All Routes Lead to Doom!"
-   mal: https://myanimelist.net/anime/38555/Otome_Game_no_Hametsu_Flag_shika_Nai_Akuyaku_Reijou_ni_Tensei_shiteshimatta
-   image: https://cdn.myanimelist.net/images/anime/1315/106420l.jpg
- - title: "The Millionaire Detective – Balance: UNLIMITED"
+ - title: "The God of High School"
+   mal: https://myanimelist.net/anime/41353/The_God_of_High_School
+   image: https://cdn.myanimelist.net/images/anime/1722/107269l.jpg
+ - title: "Appare-Ranman!"
+   mal: https://myanimelist.net/anime/40532/Appare-Ranman
+   image: https://cdn.myanimelist.net/images/anime/1710/106614l.jpg
+ - title: "The Millionaire Detective - Balance: UNLIMITED"
    mal: https://myanimelist.net/anime/41120/Fugou_Keiji__Balance_Unlimited
    image: https://cdn.myanimelist.net/images/anime/1066/106556l.jpg
 
