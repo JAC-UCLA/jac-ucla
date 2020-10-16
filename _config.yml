@@ -42,20 +42,24 @@ jacphotos:
 # === JAC Meetings ===
 
 # Day for weekend events. Comment out if none this quarter.
-#weekendday: Saturday
+weekendday: Saturday
 # Current quarter.
-quarter: Summer
+quarter: Fall
 # Schedule of events for the quarter.
 # Each entry in the list is a week and can have two entries, "meeting" and "weekend".
 schedule:
- - meeting: Screenings
+ - meeting: Welcome Bingo + Special Screening
+   weekend: Game Night
  - meeting: Screenings + Voting
- - meeting: Screenings
- - meeting: Screenings
- - meeting: Screenings
- - meeting: Screenings
- - meeting: Screenings
- - meeting: Screenings
+   weekend: Officer Q&A
+ - meeting: Game Night
+ - meeting: Halloween Screening
+   weekend: Spooky Game Night
+ - meeting: Catch Up Screenings
+ - meeting: Anime Trivia
+   weekend: Game Night
+ - meeting: Anime Music Quiz
+ - meeting: No Meeting (Thanksgiving)
  - meeting: Screenings
 # Current quarterly screenings.
 # Each entry must contain the following:
@@ -63,15 +67,12 @@ schedule:
 # - mal: MyAnimeList link.
 # - image: Cover image to display.
 screenings:
- - title: "The God of High School"
-   mal: https://myanimelist.net/anime/41353/The_God_of_High_School
-   image: https://cdn.myanimelist.net/images/anime/1722/107269l.jpg
- - title: "Appare-Ranman!"
-   mal: https://myanimelist.net/anime/40532/Appare-Ranman
-   image: https://cdn.myanimelist.net/images/anime/1710/106614l.jpg
- - title: "The Millionaire Detective - Balance: UNLIMITED"
-   mal: https://myanimelist.net/anime/41120/Fugou_Keiji__Balance_Unlimited
-   image: https://cdn.myanimelist.net/images/anime/1066/106556l.jpg
+ - title: "Jujutsu Kaisen"
+   mal: https://myanimelist.net/anime/40748/Jujutsu_Kaisen_TV
+   image: https://cdn.myanimelist.net/images/anime/1171/109222.jpg
+ - title: "Sleepy Princess in the Demon Castle"
+   mal: https://myanimelist.net/anime/40397/Maoujou_de_Oyasumi
+   image: https://cdn.myanimelist.net/images/anime/1448/108514.jpg
 
 # === Fresh Produce ===
 
