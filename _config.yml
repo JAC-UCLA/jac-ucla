@@ -44,35 +44,28 @@ jacphotos:
 # Day for weekend events. Comment out if none this quarter.
 weekendday: Saturday
 # Current quarter.
-quarter: Fall
+quarter: Winter
 # Schedule of events for the quarter.
 # Each entry in the list is a week and can have two entries, "meeting" and "weekend".
 schedule:
- - meeting: Welcome Bingo + Special Screening
-   weekend: Game Night
+ - meeting: Special Screening
+   weekend: Winter Social
  - meeting: Screenings + Voting
-   weekend: Officer Q&A
- - meeting: Game Night
- - meeting: Halloween Screening
-   weekend: Spooky Game Night
- - meeting: Catch Up Screenings
- - meeting: Anime Trivia
+ - meeting: Drawing Games
    weekend: Game Night
+ - meeting: Pictionary
+ - meeting: Game Night
+ - meeting: Jackbox Games
+   weekend: Valentines' Day Screening (SUNDAY)
  - meeting: Anime Music Quiz
- - meeting: No Meeting (Thanksgiving)
- - meeting: Screenings
+ - meeting: Tier List Night
+ - meeting: Officer Elections
 # Current quarterly screenings.
 # Each entry must contain the following:
 # - title: Anime title.
 # - mal: MyAnimeList link.
 # - image: Cover image to display.
 screenings:
- - title: "Jujutsu Kaisen"
-   mal: https://myanimelist.net/anime/40748/Jujutsu_Kaisen_TV
-   image: https://cdn.myanimelist.net/images/anime/1171/109222.jpg
- - title: "Sleepy Princess in the Demon Castle"
-   mal: https://myanimelist.net/anime/40397/Maoujou_de_Oyasumi
-   image: https://cdn.myanimelist.net/images/anime/1448/108514.jpg
 
 # === Fresh Produce ===
 
