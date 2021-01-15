@@ -66,6 +66,12 @@ schedule:
 # - mal: MyAnimeList link.
 # - image: Cover image to display.
 screenings:
+ - title: Kemono Jihen
+   mal: https://myanimelist.net/anime/40908
+   image: https://cdn.myanimelist.net/images/anime/1258/108331l.webp
+ - title: Horimiya
+   mal: https://myanimelist.net/anime/42897
+   image: https://cdn.myanimelist.net/images/anime/1791/110336l.webp
 
 # === Fresh Produce ===
 
