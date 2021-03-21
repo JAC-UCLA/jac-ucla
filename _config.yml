@@ -53,14 +53,14 @@ schedule:
  - meeting: Special Screening
  - meeting: Quarter Screening + Voting
    weekend: Officer Q&A
- - meeting: Geoguesser Night
+ - meeting: Geoguessr Night
    weekend: Sports Festival
- - meeting: JAC Social (TBD)
+ - meeting: TBD
  - meeting: Game Night
    weekend: Mother's Day Screening
  - meeting: Anime Music Quiz
- - meeting: JAC Social (TBD)
- - meeting: JAC Social (TBD) + Raffle!
+ - meeting: TBD
+ - meeting: TBD + Raffle!
 # Current quarterly screenings.
 # Each entry must contain the following:
 # - title: Anime title.
