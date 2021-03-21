@@ -44,34 +44,29 @@ jacphotos:
 # Day for weekend events. Comment out if none this quarter.
 weekendday: Saturday
 # Current quarter.
-quarter: Winter
+quarter: Spring
 # Schedule of events for the quarter.
 # Each entry in the list is a week and can have two entries, "meeting" and "weekend".
 schedule:
+ - meeting: April Fool's Screening + Jackbox Night
+   weekend: Escape Room
  - meeting: Special Screening
-   weekend: Winter Social
- - meeting: Screenings + Voting
- - meeting: Drawing Games
-   weekend: Game Night
- - meeting: Pictionary
+ - meeting: Quarter Screening + Voting
+   weekend: Officer Q&A
+ - meeting: Geoguesser Night
+   weekend: Sports Festival
+ - meeting: JAC Social (TBD)
  - meeting: Game Night
- - meeting: Jackbox Games
-   weekend: Valentines' Day Screening (SUNDAY)
+   weekend: Mother's Day Screening
  - meeting: Anime Music Quiz
- - meeting: Tier List Night
- - meeting: Officer Elections
+ - meeting: JAC Social (TBD)
+ - meeting: JAC Social (TBD) + Raffle!
 # Current quarterly screenings.
 # Each entry must contain the following:
 # - title: Anime title.
 # - mal: MyAnimeList link.
 # - image: Cover image to display.
 screenings:
- - title: Kemono Jihen
-   mal: https://myanimelist.net/anime/40908
-   image: https://cdn.myanimelist.net/images/anime/1258/108331l.webp
- - title: Horimiya
-   mal: https://myanimelist.net/anime/42897
-   image: https://cdn.myanimelist.net/images/anime/1791/110336l.webp
 
 # === Fresh Produce ===
 
