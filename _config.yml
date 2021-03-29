@@ -54,13 +54,13 @@ schedule:
  - meeting: Quarter Screening + Voting
    weekend: Officer Q&A
  - meeting: Geoguessr Night
-   weekend: Sports Festival
- - meeting: TBD
- - meeting: Game Night
+   weekend: Spring Festival
+ - meeting: Sporcle Night
+ - meeting: Codenames Night
    weekend: Mother's Day Screening
- - meeting: Anime Music Quiz
- - meeting: TBD
- - meeting: TBD + Raffle!
+ - meeting: Anime Music Quiz Night
+ - meeting: Anime Jeopardy Night
+ - meeting: Scattergories Night + Raffle!
 # Current quarterly screenings.
 # Each entry must contain the following:
 # - title: Anime title.
