@@ -42,25 +42,21 @@ jacphotos:
 # === JAC Meetings ===
 
 # Day for weekend events. Comment out if none this quarter.
-weekendday: Saturday
+# weekendday: Saturday
 # Current quarter.
-quarter: Spring
+quarter: Summer Session A
 # Schedule of events for the quarter.
 # Each entry in the list is a week and can have two entries, "meeting" and "weekend".
 schedule:
- - meeting: April Fool's Screening + Jackbox Night
-   weekend: Escape Room
- - meeting: Special Screening
- - meeting: Quarter Screening + Voting
-   weekend: Officer Q&A
- - meeting: Geoguessr Night
-   weekend: Spring Festival
- - meeting: Sporcle Night
- - meeting: Codenames Night
-   weekend: Mother's Day Screening
- - meeting: Anime Music Quiz Night
- - meeting: Anime Jeopardy Night
- - meeting: Scattergories Night + Raffle!
+ - meeting: Screenings
+ - meeting: Screenings
+ - meeting: Screenings
+ - meeting: Screenings
+ - meeting: Screenings
+ - meeting: Screenings
+ #- meeting: Screenings
+ #- meeting: Screenings
+ #- meeting: Screenings
 # Current quarterly screenings.
 # Each entry must contain the following:
 # - title: Anime title.
