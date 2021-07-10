@@ -44,10 +44,13 @@ jacphotos:
 # Day for weekend events. Comment out if none this quarter.
 # weekendday: Saturday
 # Current quarter.
-quarter: Summer Session A
+quarter: Summer Sessions
 # Schedule of events for the quarter.
 # Each entry in the list is a week and can have two entries, "meeting" and "weekend".
 schedule:
+ - meeting: Screenings
+ - meeting: Screenings
+ - meeting: Screenings
  - meeting: Screenings
  - meeting: Screenings
  - meeting: Screenings
@@ -63,12 +66,6 @@ schedule:
 # - mal: MyAnimeList link.
 # - image: Cover image to display.
 screenings:
- - title: Odd Taxi
-   mal: https://myanimelist.net/anime/46102
-   image: https://cdn.myanimelist.net/images/anime/1981/113348l.webp
- - title: To Your Eternity
-   mal: https://myanimelist.net/anime/41025
-   image: https://cdn.myanimelist.net/images/anime/1415/111742l.webp
 
 # === Fresh Produce ===
 
