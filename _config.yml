@@ -44,7 +44,7 @@ jacphotos:
 # Day for weekend events. Comment out if none this quarter.
 # weekendday: Saturday
 # Current quarter.
-quarter: Summer Sessions
+quarter: Summer
 # Schedule of events for the quarter.
 # Each entry in the list is a week and can have two entries, "meeting" and "weekend".
 schedule:
@@ -66,6 +66,18 @@ schedule:
 # - mal: MyAnimeList link.
 # - image: Cover image to display.
 screenings:
+- title: The Detective is Already Dead
+  mal: https://myanimelist.net/anime/46471
+  image: https://cdn.myanimelist.net/images/anime/1843/115815l.webp
+- title: The Aquatope on White Sand
+  mal: https://myanimelist.net/anime/46093
+  image: https://cdn.myanimelist.net/images/anime/1932/114952l.webp
+- title: Remake Our Life!
+  mal: https://myanimelist.net/anime/40904
+  image: https://cdn.myanimelist.net/images/anime/1737/112772l.webp
+- title: Kageki Shoujo!!
+  mal: https://myanimelist.net/anime/43691
+  image: https://cdn.myanimelist.net/images/anime/1944/114427l.webp
 
 # === Fresh Produce ===
 
