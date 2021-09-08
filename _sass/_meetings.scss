@@ -59,20 +59,16 @@ table, th, td{
 
 .meetings-screening{
     display: inline-block;
-    //margin: 10px 20px; 
-    margin: 10px 10px; // for summer 2021 only
+    margin: 10px 20px; 
     vertical-align: top;
 }
 
 .meetings-screening-img {
-    //width = 200px;
-    //height = 300px;
-    width: 200/8*7px; // for summer 2021 only
-    height: 300/8*7px; // for summer 2021 only
+    width: 200px;
+    height: 300px;
 }
 
 .meetings-screening-caption {
     text-align: center;
-    //width = 200px;
-    width: 200/8*7px; // for summer 2021 only
+    width: 200px;
 }

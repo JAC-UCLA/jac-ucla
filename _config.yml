@@ -1,7 +1,7 @@
 # === About JAC ===
 
 # JAC meeting room.
-jacroom: The JAC Discord Server
+jacroom: Location TBD
 # JAC meeting day.
 jacday: Thursday
 # JAC meeting time.
@@ -40,42 +40,34 @@ jacphotos:
 # === JAC Meetings ===
 
 # Day for weekend events. Comment out if none this quarter.
-# weekendday: Saturday
+weekendday: Saturday
 # Current quarter.
-quarter: Summer
+quarter: Fall
 # Schedule of events for the quarter.
 # Each entry in the list is a week and can have two entries, "meeting" and "weekend".
 schedule:
- - meeting: Screenings
- - meeting: Screenings
- - meeting: Screenings
- - meeting: Screenings
- - meeting: Screenings
- - meeting: Screenings
- - meeting: Screenings
- - meeting: Screenings
- - meeting: Screenings
- #- meeting: Screenings
- #- meeting: Screenings
- #- meeting: Screenings
+ - meeting: Welcome Bingo
+   weekend: Welcome Picnic
+ - meeting: Fall Screenings + Voting
+   weekend: Beach Day
+ - meeting: Game Night
+   weekend: Jackbox Night (Discord)
+ - meeting: Anime Trivia Night
+   weekend: Sawtelle Trip
+ - meeting: Cardboard Cosplay
+   weekend: Online Game Night (Discord)
+ - meeting: Auction
+   weekend: Dessert Night
+ - meeting: Karaoke Night
+   weekend: AMQ Night (Discord)
+ - meeting: Special Screening + Raffle
 # Current quarterly screenings.
 # Each entry must contain the following:
 # - title: Anime title.
 # - mal: MyAnimeList link.
 # - image: Cover image to display.
 screenings:
-- title: The Detective is Already Dead
-  mal: https://myanimelist.net/anime/46471
-  image: https://cdn.myanimelist.net/images/anime/1843/115815l.webp
-- title: The Aquatope on White Sand
-  mal: https://myanimelist.net/anime/46093
-  image: https://cdn.myanimelist.net/images/anime/1932/114952l.webp
-- title: Remake Our Life!
-  mal: https://myanimelist.net/anime/40904
-  image: https://cdn.myanimelist.net/images/anime/1737/112772l.webp
-- title: Kageki Shoujo!!
-  mal: https://myanimelist.net/anime/43691
-  image: https://cdn.myanimelist.net/images/anime/1944/114427l.webp
+
 
 # === Fresh Produce ===
 
