@@ -1,7 +1,7 @@
 # === About JAC ===
 
 # JAC meeting room.
-jacroom: Location TBD
+jacroom: Kinsey Pavillion 1200B
 # JAC meeting day.
 jacday: Thursday
 # JAC meeting time.
@@ -50,15 +50,15 @@ schedule:
    weekend: Welcome Picnic
  - meeting: Fall Screenings + Voting
    weekend: Beach Day
- - meeting: Game Night
-   weekend: Jackbox Night (Discord)
  - meeting: Anime Trivia Night
+   weekend: Jackbox Night (Discord)
+ - meeting: Karaoke Night
    weekend: Sawtelle Trip
  - meeting: Cardboard Cosplay
    weekend: Online Game Night (Discord)
  - meeting: Auction
    weekend: Dessert Night
- - meeting: Karaoke Night
+ - meeting: Veterans Day
    weekend: AMQ Night (Discord)
  - meeting: Special Screening + Raffle
 # Current quarterly screenings.
