@@ -67,6 +67,13 @@ schedule:
 # - mal: MyAnimeList link.
 # - image: Cover image to display.
 screenings:
+ - title: Blue Period
+   mal: https://myanimelist.net/anime/46352
+   image: https://cdn.myanimelist.net/images/anime/1757/116931l.jpg
+ - title: Takt Op. Destiny
+   mal: https://myanimelist.net/anime/48556
+   image: https://cdn.myanimelist.net/images/anime/1449/117797l.jpg
+
 
 
 # === Fresh Produce ===
