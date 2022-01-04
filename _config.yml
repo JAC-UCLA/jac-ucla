@@ -1,7 +1,7 @@
 # === About JAC ===
 
 # JAC meeting room.
-jacroom: Kinsey Pavillion 1200B
+jacroom: Discord
 # JAC meeting day.
 jacday: Thursday
 # JAC meeting time.
@@ -10,6 +10,8 @@ jactime: 7-9PM
 # Written in markdown.
 # The line "%photos%" is replaced with the photo slideshow.
 jacabout: |
+ **NOTICE: Due to university policy, there will be no in-person club meetings until 1/18 at the earliest. Updates will be sent out through our mailing list and Discord server.**
+
  We're the Japanese Animation Club at UCLA! Welcome to our site! (ﾉ´ヮ´)ﾉ*:･ﾟ✧
 
  We’re a club dedicated to facilitating both on and off-campus gatherings for the appreciation of Japanese anime and culture! We welcome all anime fans to join us at our club-hosted events and local conventions, to meet with others who share the same passion for art and entertainment.
@@ -42,38 +44,33 @@ jacphotos:
 # Day for weekend events. Comment out if none this quarter.
 weekendday: Saturday
 # Current quarter.
-quarter: Fall
+quarter: Winter
 # Schedule of events for the quarter.
 # Each entry in the list is a week and can have two entries, "meeting" and "weekend".
 schedule:
- - meeting: Welcome Bingo
-   weekend: Welcome Picnic
- - meeting: Fall Screenings + Voting
-   weekend: Sawtelle Trip
- - meeting: Anime Trivia Night
+ - meeting: Special Screening (Discord)
    weekend: Jackbox Night (Discord)
+ - meeting: Winter Screenings + Voting (Discord)
+   weekend: Sporcle (Discord)
+ - meeting: Officer Q&A feat. Maids
+   weekend: Winter Formal
+ - meeting: Kahoot Night
+   weekend: Scavenger Hunt
+ - meeting: Pictionary Night
+   weekend: Little Tokyo Trip
+ - meeting: Valentine's Event
+   weekend: Koreatown Trip
  - meeting: Karaoke Night
-   weekend: Beach Day
- - meeting: Cardboard Cosplay
-   weekend: Online Game Night (Discord)
- - meeting: Auction
-   weekend: Dessert Night
- - meeting: Veterans Day
-   weekend: AMQ Night (Discord)
- - meeting: Special Screening + Raffle
+   weekend: Board Game Night
+ - meeting: Anime Charades
+   weekend: Dessert Night (Westwood)
+ - meeting: Special Screening + Officer Elections + Raffle
 # Current quarterly screenings.
 # Each entry must contain the following:
 # - title: Anime title.
 # - mal: MyAnimeList link.
 # - image: Cover image to display.
 screenings:
- - title: Blue Period
-   mal: https://myanimelist.net/anime/46352
-   image: https://cdn.myanimelist.net/images/anime/1757/116931l.jpg
- - title: Takt Op. Destiny
-   mal: https://myanimelist.net/anime/48556
-   image: https://cdn.myanimelist.net/images/anime/1449/117797l.jpg
-
 
 
 # === Fresh Produce ===
