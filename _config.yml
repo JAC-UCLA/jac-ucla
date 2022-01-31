@@ -1,7 +1,7 @@
 # === About JAC ===
 
 # JAC meeting room.
-jacroom: Discord
+jacroom: Franz 1260
 # JAC meeting day.
 jacday: Thursday
 # JAC meeting time.
@@ -10,7 +10,6 @@ jactime: 7-9PM
 # Written in markdown.
 # The line "%photos%" is replaced with the photo slideshow.
 jacabout: |
- **NOTICE: Due to university policy, there will be no in-person club meetings until Week 5 at the earliest. Updates will be sent out through our mailing list and Discord server.**
 
  We're the Japanese Animation Club at UCLA! Welcome to our site! (ﾉ´ヮ´)ﾉ*:･ﾟ✧
 
@@ -71,6 +70,12 @@ schedule:
 # - mal: MyAnimeList link.
 # - image: Cover image to display.
 screenings:
+- title: Sabikui Bisco
+  mal: https://myanimelist.net/anime/48414
+  image: https://cdn.myanimelist.net/images/anime/1446/118840l.jpg
+- title: The Genius Prince's Guide to Raising a Nation Out of Debt
+  mal: https://myanimelist.net/anime/47159
+  image: https://cdn.myanimelist.net/images/anime/1263/119511l.jpg
 
 
 # === Fresh Produce ===
