@@ -1,7 +1,7 @@
 # === About JAC ===
 
 # JAC meeting room.
-jacroom: Franz 1260
+jacroom: Kinsey 1240
 # JAC meeting day.
 jacday: Thursday
 # JAC meeting time.
@@ -70,18 +70,18 @@ schedule:
 # - mal: MyAnimeList link.
 # - image: Cover image to display.
 screenings:
-- title: Sabikui Bisco
-  mal: https://myanimelist.net/anime/48414
-  image: https://cdn.myanimelist.net/images/anime/1446/118840l.jpg
-- title: The Genius Prince's Guide to Raising a Nation Out of Debt
-  mal: https://myanimelist.net/anime/47159
-  image: https://cdn.myanimelist.net/images/anime/1263/119511l.jpg
+- title: 
+  mal: 
+  image: 
+- title: 
+  mal: 
+  image: 
 
 
 # === Fresh Produce ===
 
 # Fresh Produce meeting room.
-#freshroom: Ackerman Jamba Juice Lounge
+#freshroom: Haines A20
 freshroom: Fresh Produce Discord
 # Fresh Produce meeting day.
 freshday: Wednesdays
