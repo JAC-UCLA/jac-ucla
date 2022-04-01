@@ -43,27 +43,27 @@ jacphotos:
 # Day for weekend events. Comment out if none this quarter.
 weekendday: Saturday
 # Current quarter.
-quarter: Winter
+quarter: Spring
 # Schedule of events for the quarter.
 # Each entry in the list is a week and can have two entries, "meeting" and "weekend".
 schedule:
- - meeting: Special Screening (Discord)
-   weekend: Jackbox Night (Discord)
- - meeting: Winter Screenings + Voting (Discord)
-   weekend: Sporcle Night (Discord)
- - meeting: Officer Q&A feat. Maids (Discord)
-   weekend: Codenames Night (Discord)
- - meeting: Kahoot Night (Discord)
-   weekend: Winter Social (Discord)
- - meeting: Pictionary Night
-   weekend: Little Tokyo Trip
- - meeting: Valentine's Event
-   weekend: Koreatown Trip
+ - meeting: Special Screening
+   weekend: Officer Retreat
+ - meeting: Special Screenings + Water Balloons
+   weekend: Easter Scavenger Hunt
+ - meeting: Seasonal Screenings + Voting
+   weekend: Sawtelle Trip
+ - meeting: Pictionary + Officer Doodles
+   weekend: Sports Festival
+ - meeting: Trivia Night
+   weekend: Jackbox + Codenames Night
+ - meeting: Game Night + Anime Reenactment
+   weekend: Beach Episode
  - meeting: Karaoke Night
-   weekend: Board Game Night
- - meeting: Anime Charades
+   weekend: AMQ Night
+ - meeting: Anime Madlibs
    weekend: Dessert Night (Westwood)
- - meeting: Special Screening + Officer Elections + Raffle
+ - meeting: Special Screening and Raffle!
 # Current quarterly screenings.
 # Each entry must contain the following:
 # - title: Anime title.
