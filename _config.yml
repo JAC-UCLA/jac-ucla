@@ -70,12 +70,12 @@ schedule:
 # - mal: MyAnimeList link.
 # - image: Cover image to display.
 screenings:
-- title: 
-  mal: 
-  image: 
-- title: 
-  mal: 
-  image: 
+- title: Spy x Family
+  mal: https://myanimelist.net/anime/50265/Spy_x_Family
+  image: /images/spring22/spyxfamily.png
+- title: Paripi Koumei
+  mal: https://myanimelist.net/anime/50380/Paripi_Koumei
+  image: /images/spring22/yaboi.png
 
 
 # === Fresh Produce ===
