@@ -72,10 +72,10 @@ schedule:
 screenings:
 - title: Spy x Family
   mal: https://myanimelist.net/anime/50265/Spy_x_Family
-  image: /images/spring22/spyxfamily.png
+  image: /images/spring22/spyxfamily.jpg
 - title: Paripi Koumei
   mal: https://myanimelist.net/anime/50380/Paripi_Koumei
-  image: /images/spring22/yaboi.png
+  image: /images/spring22/yaboi.jpg
 
 
 # === Fresh Produce ===
