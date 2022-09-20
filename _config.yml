@@ -1,7 +1,7 @@
 # === About JAC ===
 
 # JAC meeting room.
-jacroom: Kinsey 1240
+jacroom: Math Sciences 4000A
 # JAC meeting day.
 jacday: Thursday
 # JAC meeting time.
@@ -43,40 +43,32 @@ jacphotos:
 # Day for weekend events. Comment out if none this quarter.
 weekendday: Saturday
 # Current quarter.
-quarter: Spring
+quarter: Fall
 # Schedule of events for the quarter.
 # Each entry in the list is a week and can have two entries, "meeting" and "weekend".
 schedule:
- - meeting: Special Screening
-   weekend: Officer Retreat
- - meeting: Special Screenings + Auction + Water Balloons
-   weekend: Easter Scavenger Hunt
+ - meeting: Special Screening + Welcome Bingo
+   weekend: Welcome Picnic
+ - meeting: Special Screenings + Pictionary
+   weekend: Beach Day
  - meeting: Seasonal Screenings + Voting
+   weekend: Jackbox Night
+ - meeting: Anime Trivia
    weekend: Sawtelle Trip
- - meeting: Pictionary + Officer Doodles
-   weekend: Sports Festival
- - meeting: Trivia Night
-   weekend: Jackbox + Codenames Night
- - meeting: Game Night + Anime Reenactment
-   weekend: Beach Episode
+ - meeting: Cardboard Cosplay
+ - meeting: Auction
+   weekend: Board Game Night
  - meeting: Karaoke Night
-   weekend: AMQ Night
- - meeting: Anime Madlibs
+ - meeting: Raffle
    weekend: Dessert Night (Westwood)
- - meeting: Special Screening and Raffle!
+ - meeting: Thanksgiving Break (No Meeting)
+ - meeting: No Meeting
 # Current quarterly screenings.
 # Each entry must contain the following:
 # - title: Anime title.
 # - mal: MyAnimeList link.
 # - image: Cover image to display.
 screenings:
-- title: Spy x Family
-  mal: https://myanimelist.net/anime/50265/Spy_x_Family
-  image: /images/spring22/spyxfamily.jpg
-- title: Paripi Koumei
-  mal: https://myanimelist.net/anime/50380/Paripi_Koumei
-  image: /images/spring22/yaboi.jpg
-
 
 # === Fresh Produce ===
 
