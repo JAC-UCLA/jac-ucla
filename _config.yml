@@ -69,12 +69,12 @@ schedule:
 # - mal: MyAnimeList link.
 # - image: Cover image to display.
 screenings:
--title: Mobile Suit Gundam The Witch from Mercury
- mal: https://myanimelist.net/anime/49828
- image: https://cdn.myanimelist.net/images/anime/1440/127624.jpg
--title: I'm the Villainess, So I'm Taming the Final Boss
- mal: https://myanimelist.net/anime/49979
- image: https://cdn.myanimelist.net/images/anime/1648/126110.jpg
+- title: Mobile Suit Gundam The Witch from Mercury
+  mal: https://myanimelist.net/anime/49828
+  image: https://cdn.myanimelist.net/images/anime/1440/127624.jpg
+- title: I'm the Villainess, So I'm Taming the Final Boss
+  mal: https://myanimelist.net/anime/49979
+  image: https://cdn.myanimelist.net/images/anime/1648/126110.jpg
 # === Fresh Produce ===
 
 # Fresh Produce meeting room.
