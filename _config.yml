@@ -69,7 +69,7 @@ schedule:
 # - mal: MyAnimeList link.
 # - image: Cover image to display.
 screenings:
--title: Mobile Suit Gundam: The Witch from Mercury
+-title: Mobile Suit Gundam The Witch from Mercury
  mal: https://myanimelist.net/anime.php?id=49828
  image: /images/spring22/witchofmercury.jpg
 -title: I'm the Villainess, So I'm Taming the Final Boss
