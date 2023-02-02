@@ -1,7 +1,7 @@
 # === About JAC ===
 
 # JAC meeting room.
-jacroom: Math Sciences 4000A
+jacroom: Kinsey Pavilion 1200B
 # JAC meeting day.
 jacday: Thursday
 # JAC meeting time.
@@ -43,25 +43,23 @@ jacphotos:
 # Day for weekend events. Comment out if none this quarter.
 weekendday: Saturday
 # Current quarter.
-quarter: Fall
+quarter: Winter
 # Schedule of events for the quarter.
 # Each entry in the list is a week and can have two entries, "meeting" and "weekend".
 schedule:
- - meeting: Special Screening + Welcome Bingo
-   weekend: Welcome Picnic
- - meeting: Special Screenings + Pictionary
-   weekend: Beach Day
+ - meeting: Special Screening
  - meeting: Seasonal Screenings + Voting
-   weekend: Jackbox Night
- - meeting: Anime Trivia
-   weekend: Sawtelle Trip
- - meeting: Cardboard Cosplay
+   weekend: Winter Formal
+ - meeting: Officer Q&A
  - meeting: Auction
-   weekend: Board Game Night
+   weekend: Little Tokyo Trip
+ - meeting: Anime Jeopardy
+ - meeting: Anime Speed Dating
+   weekend: Koreatown Trip
  - meeting: Karaoke Night
- - meeting: Raffle
+ - meeting: Anime Charades
    weekend: Dessert Night (Westwood)
- - meeting: Thanksgiving Break (No Meeting)
+ - meeting: Special Screening + Officer Elections
  - meeting: No Meeting
 # Current quarterly screenings.
 # Each entry must contain the following:
@@ -69,12 +67,12 @@ schedule:
 # - mal: MyAnimeList link.
 # - image: Cover image to display.
 screenings:
-- title: Mobile Suit Gundam The Witch from Mercury
-  mal: https://myanimelist.net/anime/49828
-  image: https://cdn.myanimelist.net/images/anime/1440/127624.jpg
-- title: I'm the Villainess, So I'm Taming the Final Boss
-  mal: https://myanimelist.net/anime/49979
-  image: https://cdn.myanimelist.net/images/anime/1648/126110.jpg
+- title: Buddy Daddies
+  mal: https://myanimelist.net/anime/53411
+  image: https://cdn.myanimelist.net/images/anime/1183/132462.jpg
+- title: The Ice Guy and His Cool Female Colleague
+  mal: https://myanimelist.net/anime/52173
+  image: https://cdn.myanimelist.net/images/anime/1927/132758.jpg
 # === Fresh Produce ===
 
 # Fresh Produce meeting room.
