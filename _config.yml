@@ -1,7 +1,7 @@
 # === About JAC ===
 
 # JAC meeting room.
-jacroom: Kinsey Pavilion 1200B
+jacroom: Math Sciences 5200
 # JAC meeting day.
 jacday: Thursday
 # JAC meeting time.
@@ -43,23 +43,24 @@ jacphotos:
 # Day for weekend events. Comment out if none this quarter.
 weekendday: Saturday
 # Current quarter.
-quarter: Winter
+quarter: Spring
 # Schedule of events for the quarter.
 # Each entry in the list is a week and can have two entries, "meeting" and "weekend".
 schedule:
  - meeting: Special Screening
  - meeting: Seasonal Screenings + Voting
-   weekend: Winter Formal
- - meeting: Officer Q&A
- - meeting: Auction
-   weekend: Little Tokyo Trip
- - meeting: Anime Jeopardy
- - meeting: Anime Speed Dating
-   weekend: Koreatown Trip
+   weekend: “Easter” Scavenger hunt 
+ - meeting: Choose Screenings
+ - meeting: Pictionary
+   weekend: Sports Festival
+ - meeting: Kahoot
+   weekend: Sawtelle
+ - meeting: Mingling 
+   weekend: Beach Day
  - meeting: Karaoke Night
- - meeting: Anime Charades
+ - meeting: Game Night
    weekend: Dessert Night (Westwood)
- - meeting: Special Screening + Officer Elections
+ - meeting: Special Screening + Raffle
  - meeting: No Meeting
 # Current quarterly screenings.
 # Each entry must contain the following:
@@ -67,12 +68,12 @@ schedule:
 # - mal: MyAnimeList link.
 # - image: Cover image to display.
 screenings:
-- title: Buddy Daddies
-  mal: https://myanimelist.net/anime/53411
-  image: https://cdn.myanimelist.net/images/anime/1183/132462.jpg
-- title: The Ice Guy and His Cool Female Colleague
-  mal: https://myanimelist.net/anime/52173
-  image: https://cdn.myanimelist.net/images/anime/1927/132758.jpg
+- title: My Love Story With Yamada-kun at Lv999
+  mal: https://anilist.co/anime/154965/Yamadakun-to-Lv999-no-Koi-wo-Suru
+  image: https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154965-vZbBRjtmLp7S.jpg
+- title: Mashle
+  mal: https://anilist.co/anime/151801/MASHLE
+  image: https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151801-wYg28dEaJAw3.png
 # === Fresh Produce ===
 
 # Fresh Produce meeting room.
