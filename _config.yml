@@ -1,7 +1,7 @@
 # === About JAC ===
 
 # JAC meeting room.
-jacroom: Math Sciences 5200
+jacroom: Math Science 4000A
 # JAC meeting day.
 jacday: Thursday
 # JAC meeting time.
@@ -43,24 +43,24 @@ jacphotos:
 # Day for weekend events. Comment out if none this quarter.
 weekendday: Saturday
 # Current quarter.
-quarter: Spring
+quarter: Fall
 # Schedule of events for the quarter.
 # Each entry in the list is a week and can have two entries, "meeting" and "weekend".
 schedule:
- - meeting: Special Screening
- - meeting: Seasonal Screenings + Voting
-   weekend: “Easter” Scavenger hunt 
- - meeting: Choose Screenings
- - meeting: Pictionary
-   weekend: Sports Festival
- - meeting: Kahoot
-   weekend: Sawtelle
- - meeting: Mingling 
-   weekend: Beach Day
+ - meeting: Special Screening + Welcome Bingo
+   weekend: Welcome Picnic
+ - meeting: Seasonal Screenings
+   weekend: Beach Day 
+ - meeting: Auction
+ - meeting: Cardboard Cosplay
+   weekend: Little Tokyo
+ - meeting: Jeopardy
+ - meeting: Pictionary 
+   weekend: Board Games
  - meeting: Karaoke Night
- - meeting: Game Night
-   weekend: Dessert Night (Westwood)
+ - meeting: Thanksgiving (no meeting!)
  - meeting: Special Screening + Raffle
+   weekend: Dessert Night
  - meeting: No Meeting
 # Current quarterly screenings.
 # Each entry must contain the following:
